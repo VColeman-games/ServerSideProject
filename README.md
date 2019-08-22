@@ -1,2 +1,2 @@
 # ServerSideProject
-Project for Server Side Project
+Project for Server Side Class
