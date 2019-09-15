@@ -12,7 +12,7 @@ function config($key = '')
         'pretty_uri' => false,
         'site_url' => 'https://serversideproject.herokuapp.com',
         'nav_menu' => [
-            '' => '',
+            '' => 'Home',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
