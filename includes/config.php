@@ -13,6 +13,7 @@ function config($key = '')
         'site_url' => 'https://serversideproject.herokuapp.com',
         'nav_menu' => [
             '' => 'Home',
+            'contact-us' => 'Contact-us',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
