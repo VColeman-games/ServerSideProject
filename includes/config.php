@@ -15,6 +15,7 @@ function config($key = '')
             '' => 'Home',
             'contact-us' => 'Contact-us',
             'about-us' => 'About Us',
+            'm-database' => 'Movie Database'
         ],
         'template_path' => 'template',
         'content_path' => 'content',
