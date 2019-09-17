@@ -14,6 +14,7 @@ function config($key = '')
         'nav_menu' => [
             '' => 'Home',
             'contact-us' => 'Contact-us',
+            'about-us' => 'About Us',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
