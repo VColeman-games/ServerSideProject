@@ -67,7 +67,7 @@ function page_content()
 
 //Gets the movie poster
 function getMoviePoster(){
-$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+$url = 'http://www.omdbapi.com/?i=tt3896198';
 /**dont change
 */
 $handle = curl_init();
@@ -83,8 +83,9 @@ $response = json_decode($output, true);
 curl_close($handle);
 echo $response["Poster"];
 }
+
 function getMovieTitle(){
-$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+$url = 'http://www.omdbapi.com/?i=tt3896198';
 /**dont change
 */
 $handle = curl_init();
