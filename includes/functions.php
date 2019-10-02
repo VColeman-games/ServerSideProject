@@ -81,7 +81,7 @@ CURLOPT_RETURNTRANSFER => true
 $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
-echo $response["Poster"];
+echo $response;
 }
 
 function getMovieTitle(){
