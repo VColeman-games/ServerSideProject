@@ -68,7 +68,7 @@ function page_content()
 
 //Gets the movie poster
 function getComicImage(){
-$url = 'http://www.omdbapi.com/?i=tt3896198';
+$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
 /**dont change
 */
 $handle = curl_init();
