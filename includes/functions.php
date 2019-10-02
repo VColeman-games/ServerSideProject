@@ -65,6 +65,29 @@ function page_content()
     echo file_get_contents($path);
 }
 
+//Gets the movie
+function getComicURL(){
+$url = 'https://xkcd.com/'. rand(1,2280). '/info.0.json';
+echo $url; //return the random url
+}
+//gets the comic title and date
+function getTitle(){
+$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+/**dont change
+*/
+$handle = curl_init();
+curl_setopt($handle, CURLOPT_URL, $url);
+curl_setopt_array($handle,
+array(
+CURLOPT_URL => $url,
+CURLOPT_RETURNTRANSFER => true
+)
+);
+$output = curl_exec($handle);
+$response = json_decode($output, true);
+curl_close($handle);
+echo '<h2>' . $response["Title"] . '</h2>';
+}
 /**
  * Starts everything and displays the template.
  */
