@@ -84,7 +84,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo $response["Poster"]; //returns image
+echo $response["Title"]; //returns image
 }
 
 /*function getMovieTitle(){
