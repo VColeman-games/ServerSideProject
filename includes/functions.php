@@ -81,14 +81,14 @@ CURLOPT_RETURNTRANSFER => true
 $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
-echo $response;
+echo $response["Poster"];
 }
 
-function getMovieTitle(){
-$url = 'http://www.omdbapi.com/?i=tt3896198';
+/*function getMovieTitle(){
+$url = 'http://www.omdbapi.com/?i=tt3896198';*/
 /**dont change
 */
-$handle = curl_init();
+/*$handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $url);
 curl_setopt_array($handle,
 array(
@@ -101,7 +101,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 echo '<h2>' . $response["title"] . '</h2>';
 echo '<br>';
-}
+}*/
 /**
  * Starts everything and displays the template.
  */
