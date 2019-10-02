@@ -84,7 +84,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo $response["Title"]; //returns image
+echo '<h2>' . $response["title"] . '</h2>'; //returns image
 }
 
 /*function getMovieTitle(){
