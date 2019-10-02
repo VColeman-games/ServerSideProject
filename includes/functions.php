@@ -68,7 +68,7 @@ function page_content()
 
 //Gets the movie poster
 function getComicImage(){
-$url = 'https://xkcd.com/info.0.json';
+$url = 'http://www.omdbapi.com/?i=tt3896198';
 /**dont change
 */
 $handle = curl_init();
@@ -84,7 +84,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo $response["img"]; //returns image
+echo $response["Poster"]; //returns image
 }
 
 /*function getMovieTitle(){
