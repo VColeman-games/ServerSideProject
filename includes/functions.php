@@ -87,8 +87,6 @@ curl_close($handle);
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
-echo '<h6>' . $response["Writer"] . '</h6>';
-echo '<h7>' . $response["Plot"] . '</h7>';
 
 }
 
