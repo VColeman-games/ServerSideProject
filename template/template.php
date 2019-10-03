@@ -18,14 +18,14 @@
         <h1><?php site_name(); ?></h1>
         </div>
  <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
+  
   <?php nav_menu(); ?>
 </nav>
     </header>
-<article>
+<!--<article> -->
         <h2><?php page_title(); ?></h2>
         <?php page_content(); ?>
-    </article>
+  <!--  </article> -->
    <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
     </footer>

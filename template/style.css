@@ -4,7 +4,7 @@ html {
        font-family: "Lucida Console", Monaco, monospace;
 }
 
-/*
+
 .wrap {
     max-width: 720px;
     margin: 50px auto;
@@ -17,7 +17,7 @@ article {
     padding: 40px;
     line-height: 150%;
     text-align: left;
-}*/
+}
 
 nav .item {
     text-decoration: none;
