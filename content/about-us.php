@@ -22,7 +22,7 @@ Sharon is a coding queen! Sharon is in the girl gang. We stan Sharon. </p>
 
 <h3> Mary Harrell </h3>
 
-<img src ="llcoolj.jpg" height="25%" width="25%" alt=" [WE STAN MARY]">
+<img src ="frankie.jpg" height="25%" width="25%" alt=" [WE STAN MARY]">
 
 <p>This is Mary. Mary is a music feastival fanatic! Of the girl gang, I&#39;ve known Mary the longest (since Data Structures many moons ago).
 We (attempt) to work in the Shannon Hall Math/Literature tutor lab as tutors together on. (We&#39;re not the best at algebra,
@@ -46,3 +46,4 @@ gal in this group, I&#39;m also a passionate member of greek life here at CSU. I
 <img src ="KERM.jpg" height="25%" width="25%" alt=" [This is Kermit with glasses on]">
 
 <p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
+
