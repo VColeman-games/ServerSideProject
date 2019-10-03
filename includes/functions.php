@@ -84,11 +84,11 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo '<h2>' . $response["Title"] . '</h2>';
-echo '<h3>' . $response["Year"] . '</h3>';
-echo '<h4>' . $response["Rated"] . '</h4>';
-echo '<h5>' . $response["Writer"] . '</h5>';
-echo '<h6>' . $response["Plot"] . '</h6>';
+echo '<h3>' . $response["Title"] . '</h3>';
+echo '<h4>' . $response["Year"] . '</h4>';
+echo '<h5>' . $response["Rated"] . '</h5>';
+echo '<h6>' . $response["Writer"] . '</h6>';
+echo '<h7>' . $response["Plot"] . '</h7>';
 
 }
 
