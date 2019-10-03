@@ -7,9 +7,10 @@
 
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
-    /*<title><?php page_title(); ?> | <?php site_name(); ?></title>*/
-   /* <link href="/template/style.css" rel="stylesheet" type="text/css" />*/
+    <div class="jumbotron">
+    <title><?php page_title(); ?> | <?php site_name(); ?></title>
+    </div>
+    <link href="/template/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="wrap">
