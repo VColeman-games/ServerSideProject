@@ -1,12 +1,12 @@
-<p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally invite you to our little server-side project website!
-here&#39;s a little about each of us!</p>
+<p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally welcome you to our little server-side project website!
+Here&#39;s a little about each of us!</p>
 
-
+<br>
 
 <h1>Valencia Coleman</h1>
 
 <p> Valencia is a games track queeeeen! Always repin&#39; CSU is the best of ways, whether it&#39;s through
-her work effort or her extracurriculars in the Comp Sci department. I could absolutely never! Valencia is in the girl gang. We stan Valencia. </p>
+her work effort or her extracurriculars in the Comp Sci department. Mary says that Valencia has not one, but TWO elbows! Valencia is in the girl gang. We stan Valencia. </p>
 
 <br>
 
@@ -20,7 +20,8 @@ Sharon is a coding queen! Sharon is in the girl gang. We stan Sharon. </p>
 <h2> Mary Harrell </h2>
 
 <p>Mary is a music feastival fanatic! Of the girl gang, I&#39;ve known Mary the longest (since Data Structures many moons ago).
-We (attempt) to work in the Shannon Hall Math/Literature tutor lab as tutors together on. (Were not the best at algebra, but we try and that&#39;s what really matters). Mary is in the girl gang. We stan Mary. </p>
+We (attempt) to work in the Shannon Hall Math/Literature tutor lab as tutors together on. (We&#39;re not the best at algebra,
+but we try and that&#39;s what really matters). Mary is in the girl gang. We stan Mary. </p>
 
 <br>
 
@@ -32,7 +33,7 @@ gal in this group, I&#39;m also a passionate member of greek life here at CSU. I
 <br>
 <br>
 
-<p> Here&#39;s a picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but We stan him. </p>
+<p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
 
 
 <img src ="KERM.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
