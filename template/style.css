@@ -1,3 +1,9 @@
+html {
+       background-color: #cee1f2;
+       display: block;
+       font-family: "Monaco";
+}
+
 
 .wrap {
     max-width: 720px;
@@ -5,6 +11,7 @@
     padding: 30px 40px;
     text-align: center;
     box-shadow: 0 4px 25px -4px #9da5ab;
+    background-color: #ffffff;
 }
 article {
     padding: 40px;
@@ -17,4 +24,12 @@ nav .item {
 }
 nav .active {
     border-bottom: 1px solid;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 4px 25px -4px #9da5ab
 }
