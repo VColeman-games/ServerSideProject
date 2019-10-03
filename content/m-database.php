@@ -1,5 +1,5 @@
 <div> <?php getMovieTitle(); ?> </div>
-<div class="row" style="margin-right: 0px; margin-left: 60px;">
+<div class="row" style="margin-right: 0px; margin-left: 100px;">
 	<div class="mx-auto" style="padding:20px">
     <img style="width:auto; height: auto;" src = <?php getMovieImage(); ?>>
     </div>
