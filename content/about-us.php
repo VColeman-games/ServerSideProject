@@ -5,6 +5,8 @@ Here&#39;s a little about each of us!</p>
 
 <h3>Valencia Coleman</h3>
 
+<img src ="Valencia Coleman.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
+
 <p> Valencia is a games track queeeeen! Always repin&#39; CSU is the best of ways, whether it&#39;s through
 her work effort or her extracurriculars in the Comp Sci department. Mary says that Valencia has not one, but TWO elbows! Valencia is in the girl gang. We stan Valencia. </p>
 
@@ -33,7 +35,9 @@ gal in this group, I&#39;m also a passionate member of greek life here at CSU. I
 <br>
 <br>
 
-<p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
+
 
 
 <img src ="KERM.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
+
+<p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
