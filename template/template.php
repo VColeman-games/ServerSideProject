@@ -7,15 +7,16 @@
 
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <div class="jumbotron">
     <title><?php page_title(); ?> | <?php site_name(); ?></title>
-    </div>
+    
     <link href="/template/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="wrap">
 <header>
+        <div class="jumbotron">
         <h1><?php site_name(); ?></h1>
+        </div>
  <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <?php nav_menu(); ?>
