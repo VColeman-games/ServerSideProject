@@ -84,7 +84,12 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo '<h2>' . $response["Title"] . '</h2>'; //returns image
+echo '<h2>' . $response["Title"] . '</h2>';
+echo '<h3>' . $response["Year"] . '</h3>';
+echo '<h4>' . $response["Rated"] . '</h4>';
+echo '<h5>' . $response["Writer"] . '</h5>';
+echo '<h6>' . $response["Plot"] . '</h6>';
+
 }
 
 function getMovieImage(){
