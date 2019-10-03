@@ -1,11 +1,11 @@
-<p> Howdy there! Were the girl gang, and we&#39;d like to formally invite you to our little server-side project website!
+<p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally invite you to our little server-side project website!
 here&#39;s a little about each of us!</p>
 
 
 
 <h1>Valencia Coleman</h1>
 
-<p> Valencia is a games track queeeeen! Always repin CSU is the best of ways, whether it&#39;s through
+<p> Valencia is a games track queeeeen! Always repin&#39; CSU is the best of ways, whether it&#39;s through
 her work effort or her extracurriculars in the Comp Sci department. I could absolutely never! Valencia is in the girl gang. We stan Valencia. </p>
 
 <br>
@@ -29,4 +29,10 @@ We (attempt) to work in the Shannon Hall Math/Literature tutor lab as tutors tog
 <p> Lol. This is me. I love dogs and Minecraft. While I&#39;m also passionate about computer science like the three other amazing
 gal in this group, I&#39;m also a passionate member of greek life here at CSU. I&#39;m in the girl gang. We stan me?</p>
 
+<br>
+<br>
 
+<p> Here&#39;s a picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but We stan him. </p>
+
+
+<img src ="KERM.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
