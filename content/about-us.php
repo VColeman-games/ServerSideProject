@@ -5,7 +5,7 @@ Here&#39;s a little about each of us!</p>
 
 <h3>Valencia Coleman</h3>
 
-<img src ="Valencia Coleman.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
+<img src ="Valencia Coleman.jpg" height="25%" width="25%" alt=" [WE STAN VALENCIA]">
 
 <p> Valencia is a games track queeeeen! Always repin&#39; CSU is the best of ways, whether it&#39;s through
 her work effort or her extracurriculars in the Comp Sci department. Mary says that Valencia has not one, but TWO elbows! Valencia is in the girl gang. We stan Valencia. </p>
