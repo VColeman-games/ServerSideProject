@@ -41,8 +41,8 @@ gal in this group, I&#39;m also a passionate member of greek life here at CSU. I
 <br>
 
 
+<h4> Cermet </h4>
 
-
-<img src ="KERM.jpg" height="50%" width="50%" alt=" [This is Kermit with glasses on]">
+<img src ="KERM.jpg" height="25%" width="25%" alt=" [This is Kermit with glasses on]">
 
 <p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
