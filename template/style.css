@@ -1,5 +1,5 @@
 html {
-       background-color: #cee1f2;
+       background-image: url("cow.jpg");
        display: block;
        font-family: "Lucida Console", Monaco, monospace;
 }
@@ -13,7 +13,7 @@ h4 {
     text-align: center;
 }
 body {
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F324188873147018219%2F&psig=AOvVaw0uL1fKwPf0ago76I2ZF23p&ust=1572318667756000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjyrdL9veUCFQAAAAAdAAAAABAD");
+    background-image: url("");
 }
 
 .wrap {
