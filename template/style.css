@@ -6,12 +6,12 @@ ul{
 }
 .center {
     margin: auto;
-    width: 60%;
+    width: 50%;
     border: 3px solid white;
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
     border-left-style: solid;
-    padding: 500px 500px;
+    padding: 200px 200px;
     background-color: black;
 }
