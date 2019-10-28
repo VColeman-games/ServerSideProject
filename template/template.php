@@ -12,8 +12,8 @@
   </head>
   <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand navbar-collapse" href="#">
-  <img src="logo.jpeg" height="70" width="70">
+  <a class="navbar-brand navbar-collapse" href="https://serversideproject.herokuapp.com">
+  <img src="logo.jpeg" height="50" width="50">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
