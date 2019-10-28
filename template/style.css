@@ -23,6 +23,7 @@ body {
     text-align: center;
     box-shadow: 0 4px 25px -4px #9da5ab;
     background-color: #ffffff;
+    background-image: url("cow.jpg");
 }
 article {
     padding: 40px;
