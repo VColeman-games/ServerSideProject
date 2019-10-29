@@ -6,7 +6,7 @@
                 $.ajax({
 
                     type: "post",
-                    url: "/includes/searchingFunction.php",
+                    url: "/includes/function.php",
                     data: {'userInput': true},
                     dataType: "HTML",
                     success: function (data) {
