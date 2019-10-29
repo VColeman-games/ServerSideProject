@@ -24,7 +24,7 @@ Sharon is a coding queen! Sharon is in the girl gang. We stan Sharon. </p>
 
 <img src ="frankie.jpg" height="25%" width="25%" alt=" [WE STAN MARY]">
 
-<p>This is Mary. Mary is a music feastival fanatic! Of the girl gang, I&#39;ve known Mary the longest (since Data Structures many moons ago).
+<p>This is Mary. Mary is a music festival fanatic! Of the girl gang, I&#39;ve known Mary the longest (since Data Structures many moons ago).
 We (attempt) to work in the Shannon Hall Math/Literature tutor lab as tutors together on. (We&#39;re not the best at algebra,
 but we try and that&#39;s what really matters). Mary is in the girl gang. We stan Mary. </p>
 
