@@ -13,7 +13,7 @@ h4 {
     text-align: center;
 }
 body {
-    background-image: url("");
+    background-image: url("https://i.pinimg.com/originals/f6/a1/e6/f6a1e61242a17ba7dfeb71cdcb0b02dd.jpg");
 }
 
 .wrap {
@@ -49,7 +49,11 @@ img {
     margin: auto;
     width: 50%;
     padding: 200px 200px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxz1pSVcnoLSbKLRKshtscXAEEB6mWAODqOMrxqeRaLwg4uAdP");
+    border: 3px solid white;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
     background-color: black;
     color: white;
     box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
