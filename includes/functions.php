@@ -68,7 +68,7 @@ function page_content()
 
 //Gets the movie poster
 function getMovie(){
-$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s=batman';
+$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
 /**dont change
 */
 $handle = curl_init();
@@ -84,6 +84,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
+
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
@@ -109,10 +110,13 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
+foreach($reponse as $value) {
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
+}
+
 
 }
 
