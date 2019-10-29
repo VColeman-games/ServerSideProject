@@ -4,11 +4,6 @@ body {
 ul{
     font-size: 20px;
 }
--words{
-    border: 3px solid black;
-    background-color: black;
-    color:white;
-}
 .center {
     margin: auto;
     width: 50%;

@@ -1,3 +1,4 @@
+<div class="center">
 <p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally welcome you to our little server-side project website!
 Here&#39;s a little about each of us!</p>
 
@@ -47,3 +48,4 @@ gal in this group, I&#39;m also a passionate member of greek life here at CSU. I
 
 <p> Here&#39;s a bonus picture of jenna marble&#39;s dog Kermit. Unfortuntately, Kermit is not in the girl gang, but we stan him. </p>
 
+</div>
