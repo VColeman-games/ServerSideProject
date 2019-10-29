@@ -7,11 +7,6 @@ ul{
 .center {
     margin: auto;
     width: 50%;
-    border: 3px solid white;
-    border-top-style: dotted;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
     padding: 200px 200px;
     background-image: url("http://www.clker.com/cliparts/h/T/6/x/H/o/clap-board.svg");
     background-color: black;
