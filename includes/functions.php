@@ -108,7 +108,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-echo 'You searched:'.  $_GET["name"];
+echo 'You searched:'.  $_POST["name"];
 
 }
 $userInput = true ;
