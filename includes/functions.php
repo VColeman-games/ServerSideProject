@@ -67,7 +67,7 @@ function page_content()
 }
 
 //Gets the movie poster
-function getMovieTitle(){
+function getMovie(){
 $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
 /**dont change
 */
@@ -87,11 +87,12 @@ curl_close($handle);
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
-
+echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-function getMovieImage(){
-$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+function searching()
+{
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
 /**dont change
 */
 $handle = curl_init();
@@ -105,8 +106,17 @@ CURLOPT_RETURNTRANSFER => true
 $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
-echo $response["Poster"];
+/*dont change
+*/
+
+
 }
+
+
+
+
+
+
 /**
  * Starts everything and displays the template.
  */

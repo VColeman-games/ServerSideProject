@@ -1,3 +1,6 @@
+
 <div class="center">
-This is the home page of our site
+Welcome to the MOOVIES!
+<input type="text" id="myInput"  name = "userInput" placeholder="Search for Movie..">
+<input type="submit" id="submit">
 </div>
