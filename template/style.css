@@ -13,7 +13,7 @@ ul{
     border-bottom-style: dotted;
     border-left-style: solid;
     padding: 200px 200px;
-    background-image: "http://www.clker.com/cliparts/h/T/6/x/H/o/clap-board.svg";
+    background-image: url("http://www.clker.com/cliparts/h/T/6/x/H/o/clap-board.svg");
     background-color: black;
     color: white;
     box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
