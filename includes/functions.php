@@ -111,10 +111,7 @@ curl_close($handle);
 
 
 }
-$userInput = true ;
-if(isset($userInput)){
-    searching();
-}
+
 
 
 
