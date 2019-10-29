@@ -110,15 +110,16 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
+/*
 foreach($reponse as $key[$value]) {
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
-echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
+echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';*/
 }
 
 
-}
+
 
 
 
