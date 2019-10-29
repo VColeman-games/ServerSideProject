@@ -90,9 +90,9 @@ echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-function searching()
+function searching($userInput)
 {
-    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
 /**dont change
 */
 $handle = curl_init();
@@ -108,7 +108,10 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-
+echo '<h3>' . $response["Title"] . '</h3>';
+echo '<h4>' . $response["Year"] . '</h4>';
+echo '<h5>' . $response["Rated"] . '</h5>';
+echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 
 }
 

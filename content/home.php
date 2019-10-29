@@ -5,7 +5,8 @@
     height: 93px;
 ">
 Welcome to the MOOVIES!
-<input type="text" id="myInput" name="userInput" placeholder="Search for Movie..">
-<input type="submit" id="submit">
+<input type="text" id="myInput" name="userInput" value="<?php $userInput?> " >
+
+<button onclick="<?php searching($userInput) ?>">Search</button>
 </div>
 
