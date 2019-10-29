@@ -45,3 +45,12 @@ img {
     width: 50%;
     box-shadow: 0 4px 25px -4px #9da5ab
 }
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 200px 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxz1pSVcnoLSbKLRKshtscXAEEB6mWAODqOMrxqeRaLwg4uAdP");
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
