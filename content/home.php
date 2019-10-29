@@ -28,6 +28,6 @@ Welcome to the MOOVIES!
 <input type="submit" id="submit">
 </form>
 <div id ="info">
-
+<?php searching(); ?>
 </div>
 </div>
