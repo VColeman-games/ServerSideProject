@@ -1,5 +1,5 @@
 body {
-    background-image: "cowprint.jpg";
+    background-image: url("file:///cowprint.jpg";
 }
 ul{
     font-size: 20px;
