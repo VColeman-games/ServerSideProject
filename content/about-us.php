@@ -38,7 +38,7 @@ but we try and that&#39;s what really matters). Mary is in the girl gang. We sta
 
 
 
-<p> Yeet Lol. This is me. I love dogs and Minecraft. While I&#39;m also passionate about computer science like the three other amazing
+<p> Lol. This is me. I love dogs and Minecraft. While I&#39;m also passionate about computer science like the three other amazing
 gal in this group, I&#39;m also a passionate member of greek life here at CSU. I&#39;m in the girl gang. We stan me?</p>
 
 <br>
