@@ -115,7 +115,7 @@ foreach($movieinfo as $key[$value]) {
 echo '<h3>' . $movieinfo["Title"] . '</h3>';
 echo '<h4>' . $movieinfo["Year"] . '</h4>';
 echo '<h5>' . $movieinfo["Rated"] . '</h5>';
-echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
+echo ' <img style="width:auto; height: auto;" src ='. $movieinfo["Poster"]. '>';
 }
 }
 
