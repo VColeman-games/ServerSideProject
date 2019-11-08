@@ -111,7 +111,7 @@ curl_close($handle);
 /*dont change
 */
 $movieinfo = $reponse["Search"];
-foreach($movieinfo as $key[$value]) {
+foreach($movieinfo as $key => $value) {
 echo '<h3>' . $value["Title"] . '</h3>';
 echo '<h4>' . $value["Year"] . '</h4>';
 echo '<h5>' . $value["Rated"] . '</h5>';
