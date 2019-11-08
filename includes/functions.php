@@ -110,7 +110,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-$movieinfo = $reponse["Search"];
+$movieinfo = $response["Search"];
 foreach($movieinfo as $key => $value) {
 echo '<h3>' . $value["Title"] . '</h3>';
 echo '<h4>' . $value["Year"] . '</h4>';
