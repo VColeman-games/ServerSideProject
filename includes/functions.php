@@ -32,7 +32,7 @@ function nav_menu($sep = ' | ')
     $nav_menu = '';
     $nav_items = config('nav_menu');
     foreach ($nav_items as $uri => $name) {
-        $class = str_replace('page=', '', $_SERVER['QUERY_STRING']) == $uri ? ' active' : '';
+        $class = str_replace('page=', ' ', $_SERVER['QUERY_STRING']) == $uri ? ' active' : ' ';
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
         $nav_menu .= '<a href="' . $url . '" title="' . $name . '" class="item ' . $class . '">' . $name . '</a>' . $sep;
     }
@@ -67,7 +67,7 @@ function page_content()
 }
 
 //Gets the movie poster
-function getMovieTitle(){
+function getMovie(){
 $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
 /**dont change
 */
@@ -84,14 +84,17 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
+
 echo '<h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
-
+echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-function getMovieImage(){
-$url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf';
+function searching()
+{
+    $userInput="batman";
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
 /**dont change
 */
 $handle = curl_init();
@@ -105,8 +108,24 @@ CURLOPT_RETURNTRANSFER => true
 $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
-echo $response["Poster"];
+/*dont change
+*/
+$movieinfo = $response["Search"];
+foreach($movieinfo as $key => $value) {
+echo '<h3>' . $value["Title"] . '</h3>';
+echo '<h4>' . $value["Year"] . '</h4>';
+echo '<h5>' . $value["Rated"] . '</h5>';
+echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';
 }
+}
+
+
+
+
+
+
+
+
 /**
  * Starts everything and displays the template.
  */
