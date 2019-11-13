@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'ServerSideProject',
+        'name' => 'Mary ServerSideProject',
         'pretty_uri' => false,
         'site_url' => 'https://serversideproject.herokuapp.com',
         'nav_menu' => [
