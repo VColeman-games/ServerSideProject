@@ -1,8 +1,5 @@
 <div class="center">
-<img src="black_white_stripes2_cropped.jpg" style="
-    width: 136%;
-    height: 93px;
-">
+
 <p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally welcome you to our little server-side project website!
 Here&#39;s a little about each of us!</p>
 
