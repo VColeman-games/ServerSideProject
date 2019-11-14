@@ -15,6 +15,7 @@ ul{
     border-right-style: solid;
     border-bottom-style: dotted;
     border-left-style: solid;
+    background-repeat:repeat-x;
 
     background-color: black;
     color: white;
