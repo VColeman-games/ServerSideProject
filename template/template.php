@@ -11,7 +11,7 @@
     <title><?php site_name(); ?></title>
   </head>
   <body>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" style="color:black; font-weight:bold;">
   <a class="navbar-brand navbar-collapse" href="https://serversideproject.herokuapp.com">
   <img src="cow-frontal-head.svg" height="50" width="50">
   </a>
