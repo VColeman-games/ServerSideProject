@@ -1,5 +1,9 @@
 body {
     background-image:url ("https://static.vecteezy.com/system/resources/previews/000/225/625/non_2x/cow-print-seamless-pattern-vector.jpg");
+    width:100%;
+    height:100%;
+    color:black;
+    animation: myanimation 5s infinite;
 }
 
 ul{
@@ -18,4 +22,11 @@ ul{
     background-color: black;
     color: white;
   
+}
+@keyframes myanimation{
+    0%{background-color: white;}
+    25%{background-color:red;}
+    50%{background-color: blueviolet;}
+    75%{background-color: greenyellow;}
+    100%{background-color: white;}
 }
