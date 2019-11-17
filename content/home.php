@@ -3,7 +3,7 @@
 Welcome to the MOOVIES!
 <input type="text" id="myInput" name="userInput"  placeholder="Search Movies" >
 
-<button > Search</button>
+<button type="button" class="btn btn-primary"> Search</button>
  <div> <?php searching(); ?> </div>
 </div>
 
