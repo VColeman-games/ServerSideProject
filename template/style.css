@@ -23,7 +23,9 @@ ul{
     color: white;
   
 }
-
+a{
+    color:black;
+}
 @keyframes myanimation{
     0%{background-color: white;}
     25%{background-color:red;}
