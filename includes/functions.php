@@ -34,11 +34,11 @@ function nav_menu($sep = ' | ')
     foreach ($nav_items as $uri => $name) {
         $class = str_replace('page=', ' ', $_SERVER['QUERY_STRING']) == $uri ? ' active' : ' ';
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
-        $nav_menu .= '<a href="' . $url . '" title="' . $name . '"'.'>' . $name . '</a>' . $sep;
+        $nav_menu .= '<a href="' . $url . '" title="' . $name . '">' . $name . '</a>' . $sep;
     }
     echo trim($nav_menu, $sep);
 }
-/*class="item ' . $class . '"*/
+
 /**
  * Displays page title. It takes the data from
  * URL, it replaces the hyphens with spaces and
