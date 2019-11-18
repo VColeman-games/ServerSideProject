@@ -13,9 +13,10 @@ ul{
 
 
 
-jumbotron{
+h1,p{
     color:blue;
-    border-color: black;
+    font-family:"Century Gothic"; 
+    border-width: 3;
     border-radius: 15px;
    
 }

@@ -3,7 +3,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1> Welcome to the Moovies</h1>     
-    <p>jumbo test case</p>
+    <p>Graze away at your famorite films case</p>
   </div>
 </div>
 
