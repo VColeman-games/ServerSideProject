@@ -8,12 +8,15 @@ ul{
     font-size: 20px;
 }
 
+
 jumbotron{
-     border-radius: 15px;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
 
 }
 
-)
+
 
 h1{
     color:blue;
