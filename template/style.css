@@ -34,5 +34,5 @@ a{
     100%{background-color: plum;}
 }
 h3{
-    float:right;
+    display: inline;
 }
