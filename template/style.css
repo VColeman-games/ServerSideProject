@@ -1,5 +1,7 @@
 body {
     background-color:"white";
+    color:black;
+    animation: myanimation 10s infinite;
 }
 
 ul{
