@@ -7,7 +7,7 @@ var searchVar = document.getElementById("myInput").value;
                 $.ajax({
 
                     type: "post",
-                    url: "/includes/searchFunction.php",
+                    url: "/includes/functions.php",
                     data: {searchVar: document.getElementById("myInput").value},
                     success: function (data) {
                         document.getElementById('SearchedMovie').innerHTML = data;
