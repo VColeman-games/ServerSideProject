@@ -91,8 +91,11 @@ echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
+$search = false ;
+
 function searching()
 {
+    if ($search = true){
     $userInput=$_GET['userInput'];
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
 /**dont change
@@ -114,11 +117,17 @@ $movieinfo = $response["Search"];
 foreach($movieinfo as $key => $value) {
 echo '<h3>' . $value["Title"] . '</h3>';
 echo '<h4>' . $value["Year"] . '</h4>';
-echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';
+echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';}
+}
+else{
+    echo 'Movie Results Here';
 }
 }
 
 
+if(isset($search)){
+    searching();
+}
 
 
 
