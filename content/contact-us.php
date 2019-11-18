@@ -1,5 +1,11 @@
 <div class="center">
-<p><b>Contact Us</b></p>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1> Contact Us</h1>     
+    <p>Hit us up...</p>
+  </div>
+</div>
+
 <p> Emails:<p>
 <b></b>
 <p><b>coleman_valencia@columbusstate.edu</b></p>
