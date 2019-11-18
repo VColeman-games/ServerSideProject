@@ -19,7 +19,7 @@ h1{
 ul{
     font-size: 20px;
 }
-.borderC{
+#borderC{
     border: black;
     border-radius: 15px;
 }
