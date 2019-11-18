@@ -1,0 +1,1 @@
+<div id="SearchedMovie"><?php $_POST["name"] ?>   </div>
