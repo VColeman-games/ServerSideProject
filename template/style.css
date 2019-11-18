@@ -9,7 +9,7 @@ body {
 ul{
     font-size: 20px;
 }
-.center {
+/*.center {
     margin: auto;
     width: 50%;
     padding: 0px 200px 200px 0px;
@@ -22,7 +22,7 @@ ul{
     /*background-color: black;
     color: white;*/
   
-}
+/*}*/
 a{
     color:black;
 }
