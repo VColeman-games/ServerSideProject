@@ -85,7 +85,7 @@ curl_close($handle);
 /*dont change
 */
 
-echo '<div class="row">'.'<h3>' . $response["Title"] . '</h3>';
+echo '<div class="row"><h3>' . $response["Title"] . '</h3>';
 echo '<h4>' . $response["Year"] . '</h4>';
 echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>'.'</div>';
