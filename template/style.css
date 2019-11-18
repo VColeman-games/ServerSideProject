@@ -8,8 +8,16 @@ ul{
     font-size: 20px;
 }
 
+jumbotron{
+     border-radius: 25px;
+
+}
+
+)
+
 h1{
     color:blue;
+    border-radius: 25px;
 }
 
 .center {
