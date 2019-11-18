@@ -4,7 +4,7 @@
 function searching($search)
 {
   
-    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
 /**dont change
 */
 $handle = curl_init();
