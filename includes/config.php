@@ -13,7 +13,7 @@ function config($key = '')
         'site_url' => 'https://serversideproject.herokuapp.com',
         'nav_menu' => [
             '' => 'Home',
-            'contact-us' => ' Contact us ',
+            'contact-us' => '<img src="home-icon-silhouette.svg"/>',
             'about-us' => ' Who is the Girl Gang? ',
             'm-database' => ' Movie Database '
         ],
