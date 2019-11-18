@@ -6,6 +6,10 @@ body {
     animation: myanimation 10s infinite;
 }
 
+.jumbotron{
+    color:#70A1D7;
+}
+
 h1{
       color:rgb(140, 0, 255);
     font-family:"Century Gothic"; 
