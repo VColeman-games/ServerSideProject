@@ -96,7 +96,7 @@ function searching()
     $userInput="batman";
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
 /**dont change
-*/
+*/ 
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $url);
 curl_setopt_array($handle,
