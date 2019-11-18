@@ -12,8 +12,8 @@ function config($key = '')
         'pretty_uri' => false,
         'site_url' => 'https://serversideproject.herokuapp.com',
         'nav_menu' => [
-            '' => 'Home',
-            'contact-us' => '<img src="home-icon-silhouette.svg" height="50" width="50"/>',
+            '' => '<img src="home-icon-silhouette.svg" height="50" width="50"/>',
+            'contact-us' => 'Contact Us',
             'about-us' => ' Who is the Girl Gang? ',
             'm-database' => ' Movie Database '
         ],
