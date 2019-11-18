@@ -32,6 +32,8 @@ if(isset($_POST['searchVar'])) {
 
   $searchingValue = $_POST['searchVar'];
   echo searching($searchingValue);
-} 
+} else{
+    echo 'Not working';
+}
 
 ?>
