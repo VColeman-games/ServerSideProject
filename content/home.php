@@ -1,15 +1,17 @@
 <script>
-var searchVar = document.getElementById("userSearching").value;
+var search = document.getElementById("userSearching").value;
            $(document).ready(function(){
   $("#searchButton").click(function(){
-                 //location.reload();
+         console.log('Button Clicked';)        
 
                 $.ajax({
 
                     type: "post",
                     url: "/includes/functions.php",
+                    data: {"searchVar": search},
+                    datatype: 'HTML'
                     success: function (result) {
-                        document.getElementById('SearchedMovie').innerHTML = result;
+                        document.getElementById('SearchedMovies').innerHTML = result;
                     },
 
                 });
@@ -23,6 +25,6 @@ Welcome to the MOOVIES! &nbsp;
 &nbsp;
 <button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
 
- <div id="SearchedMovie"> <?php searching('batman') ?> </div>
+ <div id="SearchedMovies"> </div>
 </div>
 
