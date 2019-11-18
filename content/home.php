@@ -1,5 +1,5 @@
 <script>
-var searchVar = document.getElementById=("myInput").value;
+var searchVar = document.getElementById("myInput").value;
            $(document).ready(function(){
   $("#searchButton").click(function(){
                  //location.reload();
