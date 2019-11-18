@@ -93,7 +93,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 
 function searching()
 {
-    $userInput="batman";
+    $userInput=$_GET['userInput'];
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $userInput;
 /**dont change
 */
