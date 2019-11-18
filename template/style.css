@@ -6,6 +6,11 @@ body {
     animation: myanimation 10s infinite;
 }
 
+h1{
+      color:rgb(140, 0, 255);
+    font-family:"Century Gothic"; 
+}
+
 ul{
     font-size: 20px;
 }
