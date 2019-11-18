@@ -1,9 +1,8 @@
 
 <div class="center" >
-
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1>Welcome to the Moovies</h1>     
+    <h1> Welcome to the Moovies</h1>     
     <p>jumbo test case</p>
   </div>
 </div>

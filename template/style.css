@@ -8,6 +8,10 @@ ul{
     font-size: 20px;
 }
 
+h1{
+    color:blue;
+}
+
 .center {
     margin: auto;
     width: 50%;
