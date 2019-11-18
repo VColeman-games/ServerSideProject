@@ -6,7 +6,7 @@
     <i class="fas fa-paper-plane"></i>
   </div>
 </div>
-<i class="fas fa-paper-plane"></i>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <p> Emails:<p>
 <b></b>
 <p><b>coleman_valencia@columbusstate.edu</b></p>
