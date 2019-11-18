@@ -19,11 +19,10 @@ var searchVar = document.getElementById("userSearching").value;
         </script>
 <div class="center" >
 Welcome to the MOOVIES! &nbsp;
-<form method="post" action="">
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" >
 &nbsp;
 <button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
-</form>
- <div id="SearchedMovie">  </div>
+
+ <div id="SearchedMovie"> <?php searching('#') ?> </div>
 </div>
 
