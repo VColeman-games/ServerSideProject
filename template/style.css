@@ -9,18 +9,15 @@ ul{
 }
 
 
-jumbotron-fluid{
-    color: black;
+
+
+
+
+jumbotron{
+    color:blue;
     border-color: black;
     border-radius: 15px;
-
-}
-
-
-
-h1{
-    color:blue;
-    border-radius: 25px;
+   
 }
 
 .center {
