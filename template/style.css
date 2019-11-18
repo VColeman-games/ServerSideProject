@@ -34,3 +34,6 @@ a{
     100%{background-color: plum;}
 }
 
+.row{
+    display:inline-block
+}
