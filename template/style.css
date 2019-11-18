@@ -33,6 +33,6 @@ a{
     75%{background-color: #70A1D7}
     100%{background-color: plum;}
 }
-h3{
+h3, h4{
     display: inline;
 }
