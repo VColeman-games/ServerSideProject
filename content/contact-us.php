@@ -1,4 +1,12 @@
 <div class="center">
-<p><b>This is the contact page for our website &#x1F921,&#x1F921,&#x1F921,&#x1F921!!</b></p>
-<img src ="gotem.jpg" height="25%" width="25%" alt=" gotteeem">
+<p><b>Contact Us</b></p>
+<p> Emails:<p>
+<b></b>
+<p><b>coleman_valencia@columbusstate.edu</b></p>
+<p><b>harrell_mary@columbusstate.edu</b></p>
+<p><b>deloach_sharon@columbusstate.edu</b></p>
+<p><b>marguin_claudia@columbusstate.edu</b></p>
+
+<div>
+</div>
 </div>
