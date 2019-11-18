@@ -10,7 +10,7 @@ var searchVar = document.getElementById("myInput").value;
                     url: "/includes/searchFunction.php",
                     data: {searchVar: document.getElementById("myInput").value},
                     success: function (data) {
-                        document.getElementById('SearchedMovie').html = data;
+                        document.getElementById('SearchedMovie').innerHTML = data;
                     },
                     error: function (result) {
                         alert("Error");
