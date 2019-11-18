@@ -1,5 +1,5 @@
 <script>
-var searchVar = document.getElementById("myInput").value;
+var searchVar = document.getElementById("userSearching").value;
            $(document).ready(function(){
   $("#searchButton").click(function(){
                  //location.reload();
@@ -8,13 +8,10 @@ var searchVar = document.getElementById("myInput").value;
 
                     type: "post",
                     url: "/includes/functions.php",
-                    data: {searchVar: document.getElementById("myInput").value},
-                    success: function (data) {
-                        document.getElementById('SearchedMovie').innerHTML = data;
+                    success: function (result) {
+                        document.getElementById('SearchedMovie').innerHTML = result;
                     },
-                    error: function (result) {
-                        alert("Error");
-                    }
+
                 });
                 return false;
             });
@@ -23,7 +20,7 @@ var searchVar = document.getElementById("myInput").value;
 <div class="center" >
 Welcome to the MOOVIES! &nbsp;
 <form method="post" action="">
-<input type="text" id="myInput" name="userInput"  placeholder="Search Movies" >
+<input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" >
 &nbsp;
 <button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
 </form>
