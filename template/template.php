@@ -18,19 +18,21 @@
     <title><?php site_name(); ?></title>
   </head>
   <body>
-<nav class="navbar navbar-expand-lg" style="color:black; font-weight:bold;">
-  <a class="navbar-brand navbar-collapse" href="https://serversideproject.herokuapp.com">
-  <img src="cow-frontal-head.svg" height="50" width="50">
-  </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="https://serversideproject.herokuapp.com"</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <img src="cow-frontal-head.svg" height="50" width="50">  
+  <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-     <?php  nav_menu(); ?>
+     
+      <?php  nav_menu(); ?>
     </ul>
   </div>
 </nav>
+
+
 <?php page_content();?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
