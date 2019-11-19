@@ -18,7 +18,7 @@
     <title><?php site_name(); ?></title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-transparent">
   <a class="navbar-brand" href="#" /a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <img src="cow-frontal-head.svg" height="50" width="50">  
@@ -26,9 +26,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-     &nbsp;
       <?php  nav_menu(); ?>
-      &nbsp;
     </ul>
   </div>
 </nav>
