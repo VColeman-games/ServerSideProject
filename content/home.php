@@ -36,7 +36,7 @@ Welcome to the MOOVIES! &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 </form>
 
- <div id="result">
+ <div id="resultDiv">
  <?php  ?>
   </div>
 </div>
@@ -49,15 +49,12 @@ $(document).ready(function(){
 
         $.ajax({
             type: "POST",
-            url: "/includes/functions.php",
+            url: "/includes/searchFunction.php",
             data: {'search': document.getElementById("userSearching").value},
             dataType: 'text',
-            success: function (data) {
-                input.val(data); 
+            success: function (result) {
+                 $("#resultDiv").html(result);
             alert('Success');
-                    },
-             error: function (result) {
-                        alert("Error");
                     }
 
 
