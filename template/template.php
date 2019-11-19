@@ -18,7 +18,7 @@
 
     <span class="navbar-toggler-icon"></span>
   </button>
-    <img src="cow-frontal-head.svg" height="50" width="50">
+   <a> <?php site_name(); ?></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
