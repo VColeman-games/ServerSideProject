@@ -4,7 +4,7 @@
   <div class="container">
     <img src= 'ufo-and-cow.svg' width= '25%'/>
     <h1>Find your Flicks</h1>     
-    <p><b><i>where could it be...</i></b></p>
+    <p><b><i>where could they be...</i></b></p>
   </div>
 </div>
 &nbsp;
