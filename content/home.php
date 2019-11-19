@@ -28,7 +28,7 @@ Welcome to the MOOVIES! &nbsp;
 <form method="post" action="">
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
-<button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
+<button id = "searchButton" type="submit" class="btn btn-primary" onclick="TestingSearch()" > Search </button>
 </form>
 
  <div id="SearchedMovies"> </div>

@@ -15,8 +15,7 @@ function config($key = '')
             '' => 'Home',
             'contact-us' => ' Contact us ',
             'about-us' => ' Who is the Girl Gang? ',
-            'm-database' => ' Movie Database ',
-            'result' => 'Movie Search Result'
+            'm-database' => ' Movie Database '
         ],
         'template_path' => 'template',
         'content_path' => 'content',
