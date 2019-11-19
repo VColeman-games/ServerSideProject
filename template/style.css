@@ -29,9 +29,7 @@ ul{
     border-style: solid;
     border-radius: 5px;
 }
-* {
-  box-sizing: border-box;
-}
+
 
 .lineup{
     float: left;
