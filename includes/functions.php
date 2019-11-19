@@ -91,18 +91,14 @@ echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-    $search = '';
+ $search = '';
 function searching($search)
 {
-
-  echo $search;
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
-echo $search;
-if ($search != ''){
 
-
+    if ($search != ''){
 /**dont change
-*/
+*/ 
 $handle = curl_init();
 curl_setopt($handle, CURLOPT_URL, $url);
 curl_setopt_array($handle,
@@ -120,11 +116,11 @@ $movieinfo = $response["Search"];
 foreach($movieinfo as $key => $value) {
 echo '<h3>' . $value["Title"] . '</h3>';
 echo '<h4>' . $value["Year"] . '</h4>';
-echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';}
-
-
+echo '<div class="lineup"><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div>';
 }
 }
+}
+
 
 
 
