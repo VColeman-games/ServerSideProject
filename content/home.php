@@ -1,6 +1,7 @@
 <div class="center" >
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
+    <img src= 'film.svg' width= '10%'/>
     <h1>Welcome to the Moovies</h1>     
     <p><i>Graze away at your favorite films...</i></p>
   </div>
