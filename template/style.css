@@ -45,6 +45,10 @@ ul{
     padding: 5px;
     
 }
+.footer {
+  position: fixed;
+  text-align:center;
+}
 input{
     margin: 0 auto;
     border:black;
