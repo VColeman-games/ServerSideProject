@@ -12,7 +12,7 @@ $(document).ready(function(){
         $.ajax({
             type: "post",
             url: "/includes/functions.php",
-            data: {"search": document.getElementById("userSearching").value},
+            data: {"search": searchInput},
             dataType: 'text'
             success: function (result) {
             document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>

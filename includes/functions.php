@@ -91,10 +91,10 @@ echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-function searching($searchValue)
+function searching($search)
 {
   
-    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $searchValue;
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
 /**dont change
 */
 $handle = curl_init();
