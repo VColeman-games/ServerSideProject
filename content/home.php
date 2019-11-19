@@ -25,6 +25,6 @@ Welcome to the MOOVIES! &nbsp;
 &nbsp;
 <button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
 
- <div id="SearchedMovies"> </div>
+ <div id="SearchedMovies"><?php searching('batman'); ?> </div>
 </div>
 
