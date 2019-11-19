@@ -30,11 +30,11 @@ var searchInput = document.getElementById("userSearching").value;
         </script>
 <div class="center" >
 Welcome to the MOOVIES! &nbsp;
-<form method="post" action="">
+
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
-</form>
+
 
  <div id="resultDiv">
  <?php  ?>
