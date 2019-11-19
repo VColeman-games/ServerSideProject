@@ -13,7 +13,7 @@ $(document).ready(function(){
             type: "post",
             url: "/includes/functions.php",
             data: {"search": document.getElementById("userSearching").value},
-            dataType: 'text'
+            dataType: 'HTML'
             success: function (result) {
             document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
                     },
