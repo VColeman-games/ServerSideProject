@@ -40,6 +40,8 @@ ul{
 input{
     margin: 0 auto;
     border:black;
+    background-color: black;
+    color: white;
     border-style: solid;
     border-radius: 5px;
     width:50%;
