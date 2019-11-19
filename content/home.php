@@ -1,8 +1,18 @@
 <script>
-function TestingSearch(){
+/*function TestingSearch(){
 var searchInput = document.getElementById("userSearching").value;
   alert(searchInput);
-} 
+} */
+var searchInput = document.getElementById("userSearching").value;
+$(document).ready(function(){
+    $("button").click(function(){
+        alert(searchInput);
+    }
+}
+
+
+
+
 /*var searchURL =  document.getElementById("userSearching").value;
            $(document).ready(function(){
             $("#searchButton").click(function(){
@@ -28,7 +38,7 @@ Welcome to the MOOVIES! &nbsp;
 <form method="post" action="">
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
-<button id = "searchButton" type="submit" class="btn btn-primary" onclick="TestingSearch()" > Search </button>
+<button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 </form>
 
  <div id="SearchedMovies"> </div>
