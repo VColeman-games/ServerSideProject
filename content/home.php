@@ -50,10 +50,10 @@ $(document).ready(function(){
         $.ajax({
             type: "post",
             url: "/includes/functions.php",
-            data: {'search': searchInput},
+            data: {'search': document.getElementById("userSearching").value;},
             dataType: 'text',
-            success: function (searchInput) {
-            alert(searchInput);
+            success: function (data) {
+            alert(data);
             document.getElementById('SearchedMovies').innerHTML = searching(searchInput);
             alert('Success');
                     },
