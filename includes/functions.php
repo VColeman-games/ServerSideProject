@@ -93,8 +93,9 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 
 function searching($search)
 {
-  
+  echo $search;
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
+echo $search;
 /**dont change
 */
 $handle = curl_init();
