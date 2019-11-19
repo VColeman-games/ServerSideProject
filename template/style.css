@@ -42,10 +42,6 @@ ul{
 }
 
 
-.row{
-    display:flex;
-
-}
 
 .column{
     float: left;
@@ -93,7 +89,7 @@ a{
 }
 
 @media screen and (max-width: 500px) {
-  .lineup {
+  .column {
     width: 100%;
   }
 }
