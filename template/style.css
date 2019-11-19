@@ -9,10 +9,12 @@ body {
 .jumbotron{
 
     color:black;
+    font-family: 'Aclonica';
 }
 
 h1{
       color:rgb(140, 0, 255);
+      
     font-family:"Century Gothic"; 
 }
 
