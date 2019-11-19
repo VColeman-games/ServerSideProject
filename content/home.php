@@ -10,7 +10,7 @@
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
-
+<br>
 
  <div id="resultDiv">
  <?php  ?>
