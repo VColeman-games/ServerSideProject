@@ -48,13 +48,12 @@ $(document).ready(function(){
         //alert(searchInput);
 
         $.ajax({
-            type: "get",
+            type: "POST",
             url: "/includes/functions.php",
             data: {'search': document.getElementById("userSearching").value},
             dataType: 'text',
             success: function (data) {
-    
-            <?php echo '<div>' . searching($searchInput) .'</div>'; ?>
+                input.val(data); 
             alert('Success');
                     },
              error: function (result) {
