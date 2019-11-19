@@ -4,25 +4,6 @@ var searchInput = document.getElementById("userSearching").value;
   alert(searchInput);
 } */
 
-$(document).ready(function(){
-    $("button").click(function(){
-        var searchInput = document.getElementById("userSearching").value;
-        alert(searchInput);
-
-        $.ajax({
-            type: "post",
-            url: "/includes/functions.php",
-            data: {"search": searchInput},
-            dataType: 'text'
-            success: function () {
-            document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
-                    },
-
-
-        });
-    
-    });
-});
 
 
 
@@ -57,4 +38,27 @@ Welcome to the MOOVIES! &nbsp;
 
  <div id="SearchedMovies"> </div>
 </div>
+<script>
+
+$(document).ready(function(){
+    $("button").click(function(){
+        var searchInput = document.getElementById("userSearching").value;
+        alert(searchInput);
+
+        $.ajax({
+            type: "post",
+            url: "/includes/functions.php",
+            data: {"search": searchInput},
+            dataType: 'text'
+            success: function (results) {
+            document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
+                    },
+
+
+        });
+    
+    });
+});
+
+</script>
 
