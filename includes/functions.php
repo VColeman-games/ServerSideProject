@@ -92,7 +92,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
     $search = '';
-function searching()
+function searching($search)
 {
 
   echo $search;
