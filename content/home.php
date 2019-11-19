@@ -53,7 +53,7 @@ $(document).ready(function(){
             data: {'search': document.getElementById("userSearching").value},
             dataType: 'text',
             success: function (data) {
-            alert(data);
+            alert(search);
             document.getElementById('SearchedMovies').innerHTML = searching(search);
             alert('Success');
                     },
