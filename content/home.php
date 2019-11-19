@@ -51,7 +51,7 @@ $(document).ready(function(){
             data: {"search": searchInput},
             dataType: 'text',
             success: function (data) {
-            document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>;
+            document.getElementById('SearchedMovies').innerHTML = searching($data);
             alert('Success');
                     },
              error: function (result) {
