@@ -50,11 +50,11 @@ $(document).ready(function(){
         $.ajax({
             type: "get",
             url: "/includes/functions.php",
-            data: {'search': document.getElementById("userSearching").value;},
+            data: {'search': document.getElementById("userSearching").value},
             dataType: 'text',
             success: function (data) {
             alert(data);
-            document.getElementById('SearchedMovies').innerHTML = searching(searchInput);
+            document.getElementById('SearchedMovies').innerHTML = searching(search);
             alert('Success');
                     },
              error: function (result) {
