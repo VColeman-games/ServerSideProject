@@ -2,7 +2,7 @@
 <div class="center" >
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <img src= 'ufo-and-cow.svg' width= '10%'/>
+    <img src= 'ufo-and-cow (2).svg' width= '10%'/>
     <h1>Find your Flicks</h1>     
     <p><b><i>where could they be...</i></b></p>
   </div>
