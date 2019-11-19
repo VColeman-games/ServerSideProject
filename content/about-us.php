@@ -3,7 +3,7 @@
   
     <img src= 'disco-ball.svg' width= '10%'/>
     <h1> About Us</h1>     
-    <p><i>Hit us up...or drop us a line ...or catch us on the wire ..</i></p>
+    <p><i>we do what we do, and so do you!</i></p>
     
   </div>
 </div>
