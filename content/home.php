@@ -14,7 +14,7 @@ $(document).ready(function(){
             url: "/includes/functions.php",
             data: {"search": searchInput},
             dataType: 'text'
-            success: function (result) {
+            success: function () {
             document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
                     },
 
