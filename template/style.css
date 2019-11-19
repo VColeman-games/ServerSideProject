@@ -30,7 +30,8 @@ ul{
     border-radius: 5px;
 }
 .lineup{
-    float: left;
+    /*float: left;*/
+    display: inline-block;
 }
 a{
     color:black;
