@@ -1,8 +1,8 @@
 <script>
 var search = document.getElementById("userSearching").value;
            $(document).ready(function(){
-  $("#searchButton").click(function(){
-         console.log('Button Clicked';)        
+            $("#searchButton").click(function(){
+                console.log('Button Clicked');        
 
                 $.ajax({
 
@@ -25,6 +25,6 @@ Welcome to the MOOVIES! &nbsp;
 &nbsp;
 <button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
 
- <div id="SearchedMovies"><?php searching(); ?> </div>
+ <div id="SearchedMovies"><?php  ?> </div>
 </div>
 
