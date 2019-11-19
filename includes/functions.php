@@ -91,8 +91,10 @@ echo '<h5>' . $response["Rated"] . '</h5>';
 echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
-function searching($search)
+    $search = '';
+function searching()
 {
+
   echo $search;
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
 echo $search;

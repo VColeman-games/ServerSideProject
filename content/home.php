@@ -37,7 +37,7 @@ Welcome to the MOOVIES! &nbsp;
 </form>
 
  <div id="result">
- 
+ <?php  ?>
   </div>
 </div>
 <script>
@@ -54,7 +54,7 @@ $(document).ready(function(){
             dataType: 'text',
             success: function (data) {
     
-            <?php echo serching($searchInput); ?>
+            <?php echo '<div>' . searching($searchInput) .'</div>'; ?>
             alert('Success');
                     },
              error: function (result) {
