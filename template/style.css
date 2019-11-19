@@ -45,7 +45,8 @@ input{
     padding-left: 40%;
     border-style: solid;
     border-radius: 5px;
-    width:70%;
+    width:50%;
+    height:20px;
     text-align: center;
 }
 a{
