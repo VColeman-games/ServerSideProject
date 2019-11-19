@@ -21,8 +21,8 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#" /a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-  <img src="cow-frontal-head.svg" height="50" width="50">  
-  <span class="navbar-toggler-icon"></span>
+  
+  <span class="navbar-toggler-icon" img src="cow-frontal-head.svg" height="50" width="50"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
