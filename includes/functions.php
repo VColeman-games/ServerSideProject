@@ -94,7 +94,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 function searching($searchValue)
 {
   
-    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
+    $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $searchValue;
 /**dont change
 */
 $handle = curl_init();
@@ -118,11 +118,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';}
 
 
 }
-$search = '';
 
-if(isset($search)) {
-  echo searching($searchsearch);
-} 
 
 
 
