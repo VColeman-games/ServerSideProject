@@ -8,6 +8,18 @@ $(document).ready(function(){
     $("button").click(function(){
         var searchInput = document.getElementById("userSearching").value;
         alert(searchInput);
+
+        $.ajax({
+            type: "post",
+            url: "/includes/searchFunction.php",
+            data: {"search": document.getElementById("userSearching").value},
+            dataType: 'text'
+            success: function (result) {
+            document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
+                    },
+
+
+        });
     
     });
 });
