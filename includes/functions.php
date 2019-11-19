@@ -96,6 +96,9 @@ function searching($search)
   echo $search;
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
 echo $search;
+if ($search != ''){
+
+
 /**dont change
 */
 $handle = curl_init();
@@ -118,6 +121,7 @@ echo '<h4>' . $value["Year"] . '</h4>';
 echo ' <img style="width:auto; height: auto;" src ='. $value["Poster"]. '>';}
 
 
+}
 }
 
 
