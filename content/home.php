@@ -49,7 +49,7 @@ $(document).ready(function(){
             type: "post",
             url: "/includes/functions.php",
             data: {"search": searchInput},
-            dataType: 'text'
+            dataType: 'text',
             success: function (data) {
             document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
                     },
