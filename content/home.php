@@ -3,7 +3,7 @@
   <div class="container">
     <img src= 'film.svg' width= '10%'/>
     <h1>Welcome to the Moovies</h1>     
-    <p><i>Graze away at your favorite films...</i></p>
+    <p><b><i>Graze away at your favorite films...</i></b></p>
   </div>
 </div>
 &nbsp;
