@@ -2,7 +2,7 @@
 <div class="center" >
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <img src= 'ufo-and-cow.svg' width= '25%'/>
+    <img src= 'ufo-and-cow.svg' width= '10%'/>
     <h1>Find your Flicks</h1>     
     <p><b><i>where could they be...</i></b></p>
   </div>
@@ -12,7 +12,7 @@
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 
-
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
  <div id="resultDiv">
  <?php  ?>
   </div>
