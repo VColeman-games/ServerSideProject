@@ -48,7 +48,7 @@ $(document).ready(function(){
         //alert(searchInput);
 
         $.ajax({
-            type: "post",
+            type: "get",
             url: "/includes/functions.php",
             data: {'search': document.getElementById("userSearching").value;},
             dataType: 'text',
