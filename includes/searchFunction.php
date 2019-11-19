@@ -1,5 +1,5 @@
 <?php
-require '/includes/functions.php';
+require 'functions.php';
 
 if(isset($_POST['search'])) {
     echo 'In step 1';
