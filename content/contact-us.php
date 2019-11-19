@@ -4,7 +4,7 @@
   
     <img src= 'disco-ball.svg' width= '10%'/>
     <h1> Contact Us</h1>     
-    <p>Hit us up...or drop us a line ...or catch us on the wire ..</p>
+    <p><i>Hit us up...or drop us a line ...or catch us on the wire ..</i></p>
     
   </div>
 </div>
