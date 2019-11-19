@@ -11,7 +11,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: "post",
-            url: "/includes/searchFunction.php",
+            url: "/includes/functions.php",
             data: {"search": document.getElementById("userSearching").value},
             dataType: 'text'
             success: function (result) {
