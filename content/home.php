@@ -2,7 +2,7 @@
 var search = document.getElementById("userSearching").value;
            $(document).ready(function(){
             $("#searchButton").click(function(){
-                console.log('Button Clicked');        
+            console.log('Button Clicked');        
 
                 $.ajax({
 
@@ -10,8 +10,8 @@ var search = document.getElementById("userSearching").value;
                     url: "/includes/functions.php",
                     data: {"search": document.getElementbyId("userSearching".value)},
                     dataType: 'text'
-                    success: function (result) {
-                        document.getElementById('SearchedMovies').innerHTML = result;
+                    success: function (data) {
+                        document.getElementById('SearchedMovies').innerHTML = <?php searching($data); ?>
                     },
 
                 });
