@@ -3,9 +3,10 @@
 var searchInput = document.getElementById("userSearching").value;
   alert(searchInput);
 } */
-var searchInput = document.getElementById("userSearching").value;
+
 $(document).ready(function(){
     $("button").click(function(){
+        var searchInput = document.getElementById("userSearching").value;
         alert(searchInput);
     
     });
