@@ -45,13 +45,13 @@ Welcome to the MOOVIES! &nbsp;
 $(document).ready(function(){
     $("button").click(function(){
         var searchInput = document.getElementById("userSearching").value;
-        alert(searchInput);
+        //alert(searchInput);
 
         $.ajax({
             type: "post",
             url: "/includes/functions.php",
             data: {'search': searchInput},
-            dataType: 'HTML',
+            dataType: 'text',
             success: function (data) {
             alert(data);
             document.getElementById('SearchedMovies').innerHTML = searching(data);
