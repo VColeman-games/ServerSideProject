@@ -112,7 +112,7 @@ curl_close($handle);
 */
 $movieinfo = $response["Search"];
 foreach($movieinfo as $key => $value) {
-echo '<h3>' . $value["Title"] . '</h3>';
+echo '<div class="lineup1"><h3>' . $value["Title"] . '</h3></div>';
 echo '<h4>' . $value["Year"] . '</h4>';
 echo '<div class="lineup"><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div>';
 }
