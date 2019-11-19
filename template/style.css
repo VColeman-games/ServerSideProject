@@ -37,6 +37,12 @@ ul{
     padding: 5px;
     
 }
+input{
+    border:black;
+    border-style: solid;
+    border-radius: 5px;
+    width:50%;
+}
 a{
     color:black;
 }
