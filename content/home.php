@@ -1,5 +1,9 @@
 <script>
-var search = document.getElementById("userSearching").value;
+function TestingSearch(){
+var searchInput = document.getElementById("userSearching").value;
+  alert(searchInput);
+} 
+/*var searchURL =  document.getElementById("userSearching").value;
            $(document).ready(function(){
             $("#searchButton").click(function(){
             console.log('Button Clicked');        
@@ -11,20 +15,22 @@ var search = document.getElementById("userSearching").value;
                     data: {"search": document.getElementbyId("userSearching".value)},
                     dataType: 'text'
                     success: function (data) {
-                        document.getElementById('SearchedMovies').innerHTML = <?php searching($data); ?>
+                        document.getElementById('SearchedMovies').innerHTML = 
                     },
 
                 });
                 return false;
             });
-           });
+           });*/
         </script>
 <div class="center" >
 Welcome to the MOOVIES! &nbsp;
-<input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" value="#">
+<form method="post" action="">
+<input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
-<button id = "searchButton" type="button" class="btn btn-primary"> Search</button>
+<button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
+</form>
 
- <div id="SearchedMovies"><?php  ?> </div>
+ <div id="SearchedMovies"> </div>
 </div>
 
