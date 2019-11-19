@@ -7,8 +7,9 @@ var searchInput = document.getElementById("userSearching").value;
 $(document).ready(function(){
     $("button").click(function(){
         alert(searchInput);
-    }
-}
+    
+    });
+});
 
 
 
