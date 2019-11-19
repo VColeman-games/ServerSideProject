@@ -38,6 +38,7 @@ ul{
     
 }
 input{
+    margin: 0 auto;
     border:black;
     border-style: solid;
     border-radius: 5px;
