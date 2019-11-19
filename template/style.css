@@ -34,11 +34,13 @@ ul{
 
 
 .lineup{
-    /*float: left;*/
-    display:inline-block;
+    float: left;
     width: 33.33%;
     padding: 5px;
     
+}
+.container1{
+    display: inline-block;
 }
 .lineup1{
     float: left;

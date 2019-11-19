@@ -1,4 +1,4 @@
-<div class="center" >
+
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <img src= 'film.svg' width= '10%'/>
@@ -11,7 +11,7 @@
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 <br>
-
+<div class="container1">
  <div id="resultDiv">
  <?php  ?>
   </div>
