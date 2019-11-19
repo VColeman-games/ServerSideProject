@@ -1,7 +1,7 @@
 <div class="borderC">
 
-<p> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally welcome you to our little server-side project website!
-Here&#39;s a little about each of us!</p>
+<p><b> Howdy there! We&#39;re the girl gang, and we&#39;d like to formally welcome you to our little server-side project website!
+Here&#39;s a little about each of us!</b></p>
 
 <br>
 
