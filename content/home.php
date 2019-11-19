@@ -1,7 +1,7 @@
 <div class="center" >
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1> Welcome to the Moovies</h1>     
+    <h1><b> Welcome to the Moovies</b></h1>     
     <p>Graze away at your favorite films...</p>
   </div>
 </div>
