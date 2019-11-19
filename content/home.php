@@ -52,9 +52,9 @@ $(document).ready(function(){
             url: "/includes/functions.php",
             data: {'search': searchInput},
             dataType: 'text',
-            success: function (data) {
-            alert(data);
-            document.getElementById('SearchedMovies').innerHTML = searching(data);
+            success: function (searchInput) {
+            alert(searchInput);
+            document.getElementById('SearchedMovies').innerHTML = searching(searchInput);
             alert('Success');
                     },
              error: function (result) {
