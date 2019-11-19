@@ -42,11 +42,10 @@ input{
     border:black;
     background-color: black;
     color: white;
-    padding-left: 40%;
     border-style: solid;
     border-radius: 5px;
     width:50%;
-    height:70%;
+    height:200px;
     text-align: center;
 }
 a{
