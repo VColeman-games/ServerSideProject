@@ -33,16 +33,12 @@ ul{
 }
 
 
-.lineup{
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    
+.row{
+    display:flex;
+
 }
-.container1{
-    display: inline-block;
-}
-.lineup1{
+
+#resultDiv{
     float: left;
     width: 33.33%;
     padding: 5px;

@@ -11,7 +11,7 @@
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 <br>
-<div class="container1">
+<div class="row">
  <div id="resultDiv">
  <?php  ?>
   </div>
