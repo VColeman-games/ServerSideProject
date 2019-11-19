@@ -19,8 +19,9 @@ h1{
 ul{
     font-size: 20px;
 }
-#borderC{
+.borderC{
     border: black;
+    border-style: solid;
     border-radius: 15px;
 }
 
