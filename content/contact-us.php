@@ -7,7 +7,7 @@
     <i class="fas fa-paper-plane"></i>
   </div>
 </div>
-
+<div class="borderB">
 <p> Emails:<p>
 <b></b>
 <p><b>coleman_valencia@columbusstate.edu</b></p>
