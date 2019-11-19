@@ -50,9 +50,12 @@ $(document).ready(function(){
             url: "/includes/functions.php",
             data: {"search": searchInput},
             dataType: 'text'
-            success: function (results) {
+            success: function (data) {
             document.getElementById('SearchedMovies').innerHTML = <?php searching($data) ?>
                     },
+             error: function (result) {
+                        alert("Error");
+                    }
 
 
         });
