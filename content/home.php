@@ -52,6 +52,7 @@ $(document).ready(function(){
             dataType: 'text',
             success: function (data) {
             document.getElementById('SearchedMovies').innerHTML = data;
+            alert('Success');
                     },
              error: function (result) {
                         alert("Error");
