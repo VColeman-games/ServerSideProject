@@ -54,7 +54,7 @@ $(document).ready(function(){
             dataType: 'text',
             success: function (data) {
             alert(search);
-            document.getElementById('SearchedMovies').innerHTML = searching(search);
+            document.getElementById('SearchedMovies').html (searching(searchInput));
             alert('Success');
                     },
              error: function (result) {
