@@ -45,4 +45,8 @@ a{
     100%{background-color: plum;}
 }
 
-
+@media screen and (max-width: 500px) {
+  .lineup {
+    width: 100%;
+  }
+}
