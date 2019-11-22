@@ -9,6 +9,7 @@ body {
 .jumbotron{
 
     color:white;
+    align-content: center;
     font-family: 'Aclonica';
     background: black;
     
