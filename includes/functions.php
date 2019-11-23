@@ -151,7 +151,6 @@ curl_close($handle);
     echo ' Released :' . $response["Released"] .'<br>' ;
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
-    echo ' Metascorce :' . $response["Metascorce"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
     
 }
