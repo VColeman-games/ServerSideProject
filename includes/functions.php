@@ -132,7 +132,7 @@ foreach($movieinfo as $key => $value) {
     </div>
   </div>';
         
-  
+}
     
 }
 }
@@ -161,7 +161,7 @@ curl_close($handle);
     echo ' Metascorce :' . $response["Metascorce"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
 }
-}
+
 
 
 
