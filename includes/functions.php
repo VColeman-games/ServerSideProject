@@ -115,7 +115,7 @@ curl_close($handle);
 $movieinfo = $response["Search"];
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
-    $imdbCurrentValue = $value["imdbID"];
+    echo MovieIMDB($value["imdbID"]);
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
@@ -148,7 +148,6 @@ foreach($movieinfo as $key => $value) {
 
         
 }
-    echo '</div>';
 }
 }
 
