@@ -131,9 +131,9 @@ foreach($movieinfo as $key => $value) {
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
-        <div class="modal-body">'.
-        MovieIMDB($value["imdbID"]).
-        '</div>
+        <div class="modal-body">';
+        MovieIMDB($value["imdbID"]);
+       echo '</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
