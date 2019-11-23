@@ -110,4 +110,11 @@ a{
   .column {
     width: 100%;
   }
+  .grid-container {
+  display: block;
+}
+
+.grid-item {
+  text-align: center;
+}
 }
