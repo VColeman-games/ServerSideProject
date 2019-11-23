@@ -166,6 +166,7 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
+echo $info;
     echo ' Title :' . $response["Title"] .'<br>';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
@@ -174,6 +175,7 @@ curl_close($handle);
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' Metascorce :' . $response["Metascorce"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+    
 }
 
 
