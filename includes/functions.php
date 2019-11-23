@@ -113,37 +113,55 @@ curl_close($handle);
 /*dont change
 */
 $movieinfo = $response["Search"];
-$UrlIMBD;
 foreach($movieinfo as $key => $value) {
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div class="column"><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
-    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>';
-    echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    echo ' <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">'. MovieIMDB($value["imdbID"]). '</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
   </div>';
-}
+        
+  
+    
 }
 }
 
-
+function MovieIMDB($info){
+    $url ='http://www.omdbapi.com/?apikey=b1892baf&i=' . $info;
+    /**dont change*/ 
+$handle = curl_init();
+curl_setopt($handle, CURLOPT_URL, $url);
+curl_setopt_array($handle,
+array(
+CURLOPT_URL => $url,
+CURLOPT_RETURNTRANSFER => true
+)
+);
+$output = curl_exec($handle);
+$response = json_decode($output, true);
+curl_close($handle);
+/*dont change*/
+    echo ' Title :' . $response["Title"] .'<br>';
+    echo ' Year :' . $response["Year"] .'<br>';
+    echo ' Rated :' . $response["Rated"] .'<br>';
+    echo ' Released :' . $response["Released"] .'<br>' ;
+    echo ' Genre :' . $response["Genre"] .'<br>' ;
+    echo ' Plot :' . $response["Plot"] .'<br>';
+    echo ' Metascorce :' . $response["Metascorce"] .'<br>';
+    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+}
+}
 
 
 
