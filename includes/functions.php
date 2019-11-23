@@ -141,9 +141,8 @@ echo '<div class="container">
         </div>
         
         <!-- Modal body -->
-        <div class="modal-body">
-          Modal body..
-        </div>
+        <div class="modal-body">'. MovieIMDB($value['imdbID']);.
+        '</div>
         
         <!-- Modal footer -->
         <div class="modal-footer">
