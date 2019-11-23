@@ -112,11 +112,10 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-//$movieinfo = $response["Search"];
-$Movies = count($response['Search']);
+$movieinfo = $response["Search"];
  echo '<h3>' . $NumofMovies . '</h3>';
  echo '<div class="grid-container">';
-for($value = 0; $value < $Movies ; $value++) {
+foreach($movieinfo as $key => $value) {
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
@@ -130,7 +129,36 @@ for($value = 0; $value < $Movies ; $value++) {
           echo '<button type="button" class="close" data-dismiss="modal">&times;</button>';
         echo '</div>';
         echo '<div class="modal-body">';
-         MovieIMDB($response["Search"][$value]["imdbID"]);
+
+
+
+       $urlIMDB ='http://www.omdbapi.com/?apikey=b1892baf&i=' . $value["imdbID"];
+    /**dont change*/ 
+$handle = curl_init();
+curl_setopt($handle, CURLOPT_URL, $url);
+curl_setopt_array($handle,
+array(
+CURLOPT_URL => $url,
+CURLOPT_RETURNTRANSFER => true
+)
+);
+$output = curl_exec($handle);
+$response = json_decode($output, true);
+curl_close($handle);
+/*dont change*/ 
+echo ' Title :' . $response["Title"] .'<br>';
+    echo ' Year :' . $response["Year"] .'<br>';
+    echo ' Rated :' . $response["Rated"] .'<br>';
+    echo ' Released :' . $response["Released"] .'<br>' ;
+    echo ' Genre :' . $response["Genre"] .'<br>' ;
+    echo ' Plot :' . $response["Plot"] .'<br>';
+    echo ' Metascorce :' . $response["Metascorce"] .'<br>';
+    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+    
+
+
+
+
        echo '</div>';
         echo '<div class="modal-footer">';
           echo '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
@@ -159,7 +187,6 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
-echo $info;
     echo ' Title :' . $response["Title"] .'<br>';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
