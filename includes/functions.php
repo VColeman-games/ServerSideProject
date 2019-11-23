@@ -121,7 +121,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<div class="container">
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Film Info</button>
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onli>Film Info</button>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -133,7 +133,7 @@ foreach($movieinfo as $key => $value) {
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">';
-        MovieIMDB($value["imdbID"]);
+        MovieIMDB([$movieinfo][$value]["imdbID"]);
        echo '</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
