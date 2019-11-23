@@ -139,14 +139,7 @@ foreach($movieinfo as $key => $value) {
       </div>
     </div>
   </div>
-</div>';
-    
-
-    
-    
-    
-    
-    echo '</div>';
+</div></div>';
       
 
 
