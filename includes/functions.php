@@ -130,6 +130,7 @@ echo '<div class="container">
       
         <!-- Modal Header -->
         <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
         </div>
         <div class="modal-body">';
 
