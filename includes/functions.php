@@ -113,6 +113,7 @@ curl_close($handle);
 /*dont change
 */
 $movieinfo = $response["Search"];
+ echo '<div class ="movie-wrapper">';
 foreach($movieinfo as $key => $value) {
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
@@ -144,7 +145,7 @@ foreach($movieinfo as $key => $value) {
 </div>';
         
 }
-    
+    echo '</div>';
 }
 }
 
