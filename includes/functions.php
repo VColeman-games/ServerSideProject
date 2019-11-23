@@ -131,7 +131,7 @@ foreach($movieinfo as $key => $value) {
           <span aria-hidden="true">&times;</span>
         </button>
       </div>';
-    echo '<div class="modal-body">'. MovieIMDB($value['imdbID']). '</div>';
+    MovieIMDB($value['imdbID']);
     echo '</div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -163,13 +163,14 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
+echo '<div class="modal-body">';
     echo ' Title :' . $response["Title"] .'<br>';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
     echo ' Released :' . $response["Released"] .'<br>' ;
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
-    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+    echo ' IMDB Rating :' . $response["imdbRating"] .'<br></div>';
     
 }
 
