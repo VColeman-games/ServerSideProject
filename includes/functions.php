@@ -116,6 +116,7 @@ $movieinfo = $response["Search"];
  echo '<h3>' . $NumofMovies . '</h3>';
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
+
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
@@ -128,10 +129,7 @@ foreach($movieinfo as $key => $value) {
        echo '<div class="modal-header">';
           echo '<button type="button" class="close" data-dismiss="modal">&times;</button>';
         echo '</div>';
-        echo '<div class="modal-body">'. MovieIMDB($value['imdbID']);
-
-
-       echo '</div>';
+        echo '<div class="modal-body">'. MovieIMDB($value['imdbID']). '</div>';
         echo '<div class="modal-footer">';
           echo '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
         echo '</div>';
