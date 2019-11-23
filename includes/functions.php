@@ -122,16 +122,26 @@ foreach($movieinfo as $key => $value) {
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>';
-    echo '<div class="modal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+    echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>';
-    echo '<div class="modal-body"><p">'. MovieIMDB($value['imdbID']). '</p></div>';
-    echo '<div class="modal-footer"><button type="button" class="btn btn-primary">Save changes</button> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
+    echo '<div class="modal-body">'. MovieIMDB($value['imdbID']). '</div>';
+    echo '</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>';
     
-    echo '</div></div></div></div>';
+
     
     
     
