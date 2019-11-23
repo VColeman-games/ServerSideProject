@@ -138,7 +138,7 @@ foreach($movieinfo as $key => $value) {
         </div>
         
         <!-- Modal body -->
-        <div class="modal-body">'. MovieIMDB($value{'imdDB'}). 
+        <div class="modal-body">'. MovieIMDB($value['imdDB']). 
         '</div>
         
         <!-- Modal footer -->
