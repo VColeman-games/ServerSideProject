@@ -117,7 +117,9 @@ foreach($movieinfo as $key => $value) {
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div class="column"><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
-    echo '<div class="modal-container">  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button><br>';
+    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>';
     
 }
 }
