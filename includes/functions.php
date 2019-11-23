@@ -115,10 +115,10 @@ curl_close($handle);
 $movieinfo = $response["Search"];
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
+    $imdbCurrentValue = $value["imdbID"];
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
-    echo '<h4>' . $value["imdbID"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<div class="container">
   <!-- Trigger the modal with a button -->
@@ -134,7 +134,7 @@ foreach($movieinfo as $key => $value) {
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">';
-        MovieIMDB($value['imdbID']);
+        MovieIMDB($imdbCurrentValue);
        echo '</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
