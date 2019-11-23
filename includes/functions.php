@@ -116,7 +116,7 @@ $movieinfo = $response["Search"];
 foreach($movieinfo as $key => $value) {
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
-    echo '<div class="column"><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
+    echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<div class="container">
   <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Film Info</button>
@@ -129,11 +129,8 @@ foreach($movieinfo as $key => $value) {
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
         </div>
-        <div class="modal-body">
-          <p>'.MovieIMDB($value['imdbID']).'</p>
-        </div>
+        <div class="modal-body">'.MovieIMDB($value['imdbID']).'</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
