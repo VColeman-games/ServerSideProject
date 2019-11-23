@@ -117,7 +117,7 @@ $movieinfo = $response["Search"];
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
     echo '<div class="grid-item">';
-    echo '<h3>' . $value["Title"] . '</h3>';
+    echo '<h3>' . $key[$value]["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<div class="container">';
@@ -129,34 +129,6 @@ foreach($movieinfo as $key => $value) {
           echo '<button type="button" class="close" data-dismiss="modal">&times;</button>';
         echo '</div>';
         echo '<div class="modal-body">';
-
-
-
-       $urlIMDB ='http://www.omdbapi.com/?apikey=b1892baf&i=' . $value["imdbID"];
-    /**dont change*/ 
-$handle = curl_init();
-curl_setopt($handle, CURLOPT_URL, $url);
-curl_setopt_array($handle,
-array(
-CURLOPT_URL => $url,
-CURLOPT_RETURNTRANSFER => true
-)
-);
-$output = curl_exec($handle);
-$response = json_decode($output, true);
-curl_close($handle);
-/*dont change*/ 
-echo ' Title :' . $response["Title"] .'<br>';
-    echo ' Year :' . $response["Year"] .'<br>';
-    echo ' Rated :' . $response["Rated"] .'<br>';
-    echo ' Released :' . $response["Released"] .'<br>' ;
-    echo ' Genre :' . $response["Genre"] .'<br>' ;
-    echo ' Plot :' . $response["Plot"] .'<br>';
-    echo ' Metascorce :' . $response["Metascorce"] .'<br>';
-    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
-    
-
-
 
 
        echo '</div>';
