@@ -112,11 +112,11 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change
 */
-$movieinfo = $response["Search"];
-$NumofMovies = count($response['Search']);
+//$movieinfo = $response["Search"];
+$Movies = count($response['Search']);
  echo '<h3>' . $NumofMovies . '</h3>';
  echo '<div class="grid-container">';
-foreach($movieinfo as $key => $value) {
+for($value = 0; $value < $Movies ; $value++) {
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
@@ -130,7 +130,7 @@ foreach($movieinfo as $key => $value) {
           echo '<button type="button" class="close" data-dismiss="modal">&times;</button>';
         echo '</div>';
         echo '<div class="modal-body">';
-         MovieIMDB($value['imdbID']);
+         MovieIMDB($response["Search"][$value]["imdbID"]);
        echo '</div>';
         echo '<div class="modal-footer">';
           echo '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>';
