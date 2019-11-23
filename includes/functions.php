@@ -113,6 +113,8 @@ curl_close($handle);
 /*dont change
 */
 $movieinfo = $response["Search"];
+$NumofMovies = count($response['Search']);
+ echo '<h3>' . $NumofMovies . '</h3>';
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
     echo '<div class="grid-item">';
