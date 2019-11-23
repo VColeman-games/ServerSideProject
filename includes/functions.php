@@ -134,7 +134,7 @@ foreach($movieinfo as $key => $value) {
     
     
     
-    echo '/div>';
+    echo '</div>';
 
     
     
@@ -145,7 +145,7 @@ foreach($movieinfo as $key => $value) {
 
         
 }
-  echo '/div>';
+  echo '</div>';
 }
 }
 
