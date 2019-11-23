@@ -19,7 +19,7 @@
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-transparent">
-  <a class="navbar-brand" href="#" /a>
+  <a class="navbar-brand" href="#" >
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <img src="cow-frontal-head.svg" height="50" width="50">  
   <span class="navbar-toggler-icon"></span>
