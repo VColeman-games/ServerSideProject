@@ -122,6 +122,25 @@ foreach($movieinfo as $key => $value) {
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     
+    echo '!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-success openBtn">Open Modal</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal with Dynamic Content</h4>
+            </div>
+            <div class="modal-body">'. MovieIMDB($value['imdbID']). '</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>';
     
     
     
@@ -133,7 +152,12 @@ foreach($movieinfo as $key => $value) {
     
     
     
-    
+   
+   
+   
+   
+   
+   
     echo '</div>';
 
     
