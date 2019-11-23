@@ -27,6 +27,7 @@ $(document).ready(function(){
             url: "/includes/searchFunction.php",
             data: {'search': document.getElementById("userSearching").value},
             dataType: 'text',
+            async: true;
             success: function (result) {
                  $("#resultDiv").html(result);
                     }
