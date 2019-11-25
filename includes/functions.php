@@ -116,9 +116,6 @@ $movieinfo = $response["Search"];
 
  echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
-
-    echo '<h3>' . $value["Title"] . '</h3>';
-    echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
