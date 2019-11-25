@@ -123,7 +123,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
 
 }
-echo '</div>';
+echo '</div></div>';
 }
 }
 
