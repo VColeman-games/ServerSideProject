@@ -114,35 +114,13 @@ curl_close($handle);
 */
 $movieinfo = $response["Search"];
 
- echo '<div class="grid-container">';
+
 foreach($movieinfo as $key => $value) {
-    echo '<div class="grid-item">';
+ 
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
-echo '<div class="container">
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Film Info</button>
-  <div class="modal" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-        </div>
-        <div class="modal-body">';
-       MovieIMDB($value['imdbID']);
-       echo '</div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-</div>';
+
 }
 }
 }
