@@ -144,7 +144,7 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
-    echo '<div class="container">';
+    echo '<div >';
     echo ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">  Open modal</button>';
 
 
