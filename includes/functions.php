@@ -144,6 +144,10 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
+    echo '<div class="container">';
+    echo ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">  Open modal</button>';
+
+
     echo ' Title :' . $response["Title"] .'<br>';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
@@ -151,6 +155,11 @@ curl_close($handle);
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+
+
+
+
+    echo '</div>';
     
 }
 
