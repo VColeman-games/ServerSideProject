@@ -146,9 +146,14 @@ curl_close($handle);
 /*dont change*/
     echo '<div >';
     echo ' <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">  Open modal</button>';
+    echo '  <div class="modal" id="myModal">';
+    echo '      <div class="modal-dialog" >';
+    echo '         <div class="modal-content">';
 
 
+    echo '<div class="modal-header">';
     echo ' Title :' . $response["Title"] .'<br>';
+    echo ' <button type="button" class="close" data-dismiss="modal">&times;</button></div>';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
     echo ' Released :' . $response["Released"] .'<br>' ;
@@ -157,6 +162,12 @@ curl_close($handle);
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
 
 
+
+    echo '<div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>';
+
+    echo '          </div>';
+    echo '      </div>';
+    echo '  </div>';
 
 
     echo '</div>';
