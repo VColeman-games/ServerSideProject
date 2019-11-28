@@ -120,7 +120,7 @@ foreach($movieinfo as $key => $value) {
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
-    echo 'ID: '. $value["imdbiD"] . '<br>';
+    echo 'ID: <h4>'. $value["imdbiD"] . '</h4><br>';
     MovieIMDB($value["imdbID"]);
 
 }
