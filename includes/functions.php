@@ -153,14 +153,15 @@ curl_close($handle);
 
     echo '<div class="modal-header">';
     echo ' Title :' . $response["Title"] .'<br>';
-    echo ' <button type="button" class="close" data-dismiss="modal">&times;</button></div>';
+    echo ' </div>';
+    echo '<div class="modal-body">';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
     echo ' Released :' . $response["Released"] .'<br>' ;
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
-
+    echo '</div>';
 
 
     echo '<div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>';
