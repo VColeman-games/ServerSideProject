@@ -117,14 +117,14 @@ $movieinfo = $response["Search"];
     echo ' echo <div class="grid-container>';
 foreach($movieinfo as $key => $value) {
  
-    echo '<div class="grid-item">';;
+    echo '<div class="grid-item">';
     echo '<h3>' . $value["Title"] . '</h3>';
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
     MovieIMDB($value["imdbID"]);
-    echo '</div></div>';
+    echo '</div>';
 }
 echo '</div>';
 }
