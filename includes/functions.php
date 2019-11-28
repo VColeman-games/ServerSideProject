@@ -164,7 +164,7 @@ curl_close($handle);
     echo '</div>';
 
 
-    echo '<div class="modal-footer"><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> </div>';
+    echo '<div class="modal-footer"><button type="button"  data-dismiss="modal">Close</button> </div>';
 
     echo '          </div>';
     echo '      </div>';
