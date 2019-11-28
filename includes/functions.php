@@ -124,7 +124,7 @@ foreach($movieinfo as $key => $value) {
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
     MovieIMDB($value["imdbID"]);
-    echo '</div>';
+    echo '</div></div>';
 }
 echo '</div>';
 }
