@@ -148,7 +148,7 @@ curl_close($handle);
 /*dont change*/
     echo '<div >';
     echo ' <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">  Open modal</button>';
-    echo '  <div  id="myModal" role="dialog"">';
+    echo '  <div class="modal fade" id="myModal" role="dialog""><;/div>';
     echo '      <div class="modal-dialog" >';
     echo '         <div class="modal-content">';
 
@@ -172,8 +172,6 @@ curl_close($handle);
     echo '      </div>';
     echo '  </div>';
 
-
-    echo '</div>';
     
 }
 
