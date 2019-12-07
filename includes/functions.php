@@ -148,17 +148,16 @@ curl_close($handle);
 /*dont change*/
   
     echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
+    echo '<div class="modal" tabindex="-1" role="dialog">';
+    echo '<div class="modal-dialog" role="document">';
+    echo ' <div class="modal-content">';
+    echo ' <div class="modal-header">';
 
-    echo ' <div  id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">';
-    echo '  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">';
     echo ' Title :' . $response["Title"] .'<br></h5>';
-    echo '         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    echo ' <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
- ';
+        </button> </div>';
+
     echo '<div class="modal-body">';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
@@ -166,14 +165,17 @@ curl_close($handle);
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
-    echo '</div>';
-    echo '<div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    </div>
+
+    echo '</div>'
+
+    echo ' <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
   </div>
-
-    </div>
-    ';
+</div>';
+    
 
 
    
