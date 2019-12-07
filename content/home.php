@@ -18,7 +18,7 @@
 <script>
 
 $(document).ready(function(){
-    $("button#searchButton").click(function(){
+    $("button").click(function(){
         var searchInput = document.getElementById("userSearching").value;
         //alert(searchInput);
 
