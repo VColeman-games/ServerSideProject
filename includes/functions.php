@@ -168,13 +168,12 @@ curl_close($handle);
 
     echo '</div>'
 
-    echo ' <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>';
+    echo ' <div class="modal-footer">';
+     echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
+      echo '</div>';
+    echo '</div>';
+  echo '</div>';
+echo '</div>';
     
 
 
