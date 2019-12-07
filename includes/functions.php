@@ -92,6 +92,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
  $search = '';
+ $id = '';
 function searching($search)
 {
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
@@ -125,11 +126,21 @@ foreach($movieinfo as $key => $value) {
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
     MovieIMDB($value["imdbID"]);
+    $id = $value["imdbID"];
+    echo $id;
     echo '</div>';
 }
 echo '</div>';
 }
 }
+
+function getMovieID($id){
+return $id;
+
+
+}
+
+
 
 function MovieIMDB($info){
     $url ='http://www.omdbapi.com/?apikey=b1892baf&i=' . $info;
@@ -147,7 +158,7 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
   
-    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
+    echo '<button id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
     echo '<div class="modal-dialog" role="document">';
     echo ' <div class="modal-content">';

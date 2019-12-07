@@ -18,7 +18,7 @@
 <script>
 
 $(document).ready(function(){
-    $("button").click(function(){
+    $("button#searchButton").click(function(){
         var searchInput = document.getElementById("userSearching").value;
         //alert(searchInput);
 
@@ -37,5 +37,32 @@ $(document).ready(function(){
     });
 });
 
+
 </script>
+
+<script>
+
+$(document).ready(function(){
+    $("button#openModal").click(function(){
+        var searchInput = document.getElementById("userSearching").value;
+        //alert(searchInput);
+
+        $.ajax({
+            type: "POST",
+            url: "/includes/searchFunction.php",
+            data: {'search': document.getElementById("userSearching").value},
+            dataType: 'text',
+            success: function (result) {
+                 $("#resultDiv").html(result);
+                    }
+
+
+        });
+    
+    });
+});
+
+
+</script>
+
 
