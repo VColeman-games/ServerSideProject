@@ -146,16 +146,19 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
-    echo '<div >';
-    echo ' <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">  Open modal</button>';
+  
+    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
 
-    echo '      <div class="modal-dialog" >';
-    echo '         <div class="modal-content">';
-
-
-    echo '<div class="modal-header">';
-    echo ' Title :' . $response["Title"] .'<br>';
-    echo '   <button type="button" class="close" data-dismiss="modal">&times;</button> </div>';
+    echo ' <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">';
+    echo '  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">';
+    echo ' Title :' . $response["Title"] .'<br></h5>';
+    echo '         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+ ';
     echo '<div class="modal-body">';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
@@ -164,14 +167,16 @@ curl_close($handle);
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
     echo '</div>';
+    echo '<div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+  </div>
+</div>
+    
+    ';
 
 
-    echo '<div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
-
-    echo '          </div>';
-    echo '      </div>';
-    echo '  </div>';
-
+   
     
 }
 
