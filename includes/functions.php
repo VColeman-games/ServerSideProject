@@ -166,7 +166,7 @@ curl_close($handle);
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
 
-    echo '</div>'
+    echo '</div>';
 
     echo ' <div class="modal-footer">';
      echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
