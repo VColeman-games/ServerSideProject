@@ -93,6 +93,8 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 
  $search = '';
  $id = '';
+ $movieIDs = []; 
+
 function searching($search)
 {
     $url = 'http://www.omdbapi.com/?i=tt3896198&apikey=b1892baf&s='. $search;
@@ -127,11 +129,13 @@ foreach($movieinfo as $key => $value) {
 
     MovieIMDB($value["imdbID"]);
     $id = $value["imdbID"];
-    echo $id;
+    array_push($movieIDs, $id);
+   // echo $id;
     echo '</div>';
 }
 echo '</div>';
 }
+print_r($movieIDs);
 }
 
 function getMovieID($id){
