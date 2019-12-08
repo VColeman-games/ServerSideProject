@@ -44,16 +44,16 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("button#openModal").click(function(){
-        var idInput;
+        <? MovieIMDB () ?>
         //alert(searchInput);
 
         $.ajax({
             type: "POST",
             url: "/includes/functions.php",
-            data: {'info': document.getElementById("userSearching").value},
+            data: {'info': idInput},
             dataType: 'text',
             success: function (result) {
-                 
+                 $("#resultDiv").html(result);
                     }
 
 

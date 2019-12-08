@@ -92,8 +92,7 @@ echo ' <img style="width:auto; height: auto;" src ='. $response["Poster"]. '>';
 }
 
  $search = '';
- $id = '';
- $movieIDs = []; 
+ $title = ''; 
 
 function searching($search)
 {
@@ -127,10 +126,11 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-    echo '<button id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
+    echo '<button onClick= '. MovieIMDB($value["imdbID"]).' id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
     echo '<div class="modal-dialog" role="document">';
     echo ' <div class="modal-content">';
+    if ($title != ''){echo $title;}
     echo ' <div class="modal-header">';
 
 
@@ -154,7 +154,8 @@ echo '</div>';
     
 
     //MovieIMDB($value["imdbID"]);
-    //$id = $value["imdbID"];
+    $id = $value["imdbID"];
+   // getMovieID($id);
     //array_push($movieIDs, $id);
    // echo $id;
     echo '</div>';
@@ -187,34 +188,19 @@ $output = curl_exec($handle);
 $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
-  
-    echo '<button id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
-    echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
-    echo '<div class="modal-dialog" role="document">';
-    echo ' <div class="modal-content">';
-    echo ' <div class="modal-header">';
+ $title = $response["Title"];
+ echo $title;
+ 
 
+/*
     echo ' Title :' . $response["Title"] .'<br></h5>';
-    echo ' <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button> </div>';
-
-    echo '<div class="modal-body">';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
     echo ' Released :' . $response["Released"] .'<br>' ;
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
-    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';*/
 
-    echo '</div>';
-
-    echo ' <div class="modal-footer">';
-     echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
-      echo '</div>';
-    echo '</div>';
-  echo '</div>';
-echo '</div>';
     
 
 
