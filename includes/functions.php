@@ -130,9 +130,9 @@ foreach($movieinfo as $key => $value) {
     echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
     echo '<div class="modal-dialog" role="document">';
     echo ' <div class="modal-content">';
-    if ($title != ''){echo $title;}
+    
     echo ' <div class="modal-header">';
-
+if ($title != ''){echo $title;}
 
 
     echo ' <button type="button" class="close" data-dismiss="modal" aria-label="Close">
