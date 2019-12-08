@@ -129,21 +129,7 @@ foreach($movieinfo as $key => $value) {
     echo '<button onClick= '. MovieIMDB($value["imdbID"]).' id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
     echo '<div class="modal-dialog" role="document">';
-    echo ' <div class="modal-content">';
-    
-    echo ' <div class="modal-header">';
-if ($title != ''){echo $title;}
-
-
-    echo ' <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button> </div>';
-
-    echo '<div class="modal-body">';
-
-
-
-echo '</div>';
+ 
 
     echo ' <div class="modal-footer">';
      echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
@@ -189,17 +175,24 @@ $response = json_decode($output, true);
 curl_close($handle);
 /*dont change*/
  $title = $response["Title"];
- echo $title;
+
  
 
-/*
+  echo ' <div class="modal-header">';
     echo ' Title :' . $response["Title"] .'<br></h5>';
+
+   echo ' <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button> </div>';
+
+    echo '<div class="modal-body">';
     echo ' Year :' . $response["Year"] .'<br>';
     echo ' Rated :' . $response["Rated"] .'<br>';
     echo ' Released :' . $response["Released"] .'<br>' ;
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
-    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';*/
+    echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
+    echo '</div>';
 
     
 
