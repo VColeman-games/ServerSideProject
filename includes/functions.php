@@ -127,16 +127,9 @@ foreach($movieinfo as $key => $value) {
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
     echo '<button onClick= '. MovieIMDB($value["imdbID"]).' id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
-    echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
-    echo '<div class="modal-dialog" role="document">';
+    
  
 
-    echo ' <div class="modal-footer">';
-     echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
-      echo '</div>';
-    echo '</div>';
-  echo '</div>';
-echo '</div>';
     
 
     //MovieIMDB($value["imdbID"]);
@@ -176,7 +169,8 @@ curl_close($handle);
 /*dont change*/
  $title = $response["Title"];
 
- 
+ echo '<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">';
+    echo '<div class="modal-dialog" role="document">';
 
   echo ' <div class="modal-header">';
     echo ' Title :' . $response["Title"] .'<br></h5>';
@@ -194,6 +188,12 @@ curl_close($handle);
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
     echo '</div>';
 
+    echo ' <div class="modal-footer">';
+     echo'   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>';
+      echo '</div>';
+    echo '</div>';
+  echo '</div>';
+echo '</div>';
     
 
 
