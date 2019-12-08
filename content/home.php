@@ -53,7 +53,7 @@ $(document).ready(function(){
             data: {'info': document.getElementById("userSearching").value},
             dataType: 'text',
             success: function (result) {
-                 $("#resultDiv").html(result);
+                 
                     }
 
 
