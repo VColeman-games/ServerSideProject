@@ -43,17 +43,17 @@ $(document).ready(function(){
 <script>
 
 $(document).ready(function(){
-    $("button").click(function(){
+    $(".btn.btn-primary").click(function(){
         var idInput;
         //alert(searchInput);
 
         $.ajax({
             type: "POST",
-            url: "/includes/functions.php",
+            url: "/includes/modalFunction.php",
             data: {'info': idInput},
             dataType: 'text',
             success: function (result) {
-                 $("#resultDiv").html(result);
+                 alert (idInput);
                     }
 
 
