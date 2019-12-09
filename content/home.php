@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".btn.btn-primary").click(function(){
-        var idInput;
+        var idInput = document.getElementsByClassName("btn btn-primary").id;
         //alert(searchInput);
 
         $.ajax({
