@@ -7,7 +7,7 @@
   </div>
 </div>
 &nbsp;
-<input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
+<input  class="d-flex justify-content-center" type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 <br>
@@ -40,22 +40,6 @@ $(document).ready(function(){
 
 </script>
 
-<script>
 
-$(document).ready(function(){
-
-    $("#showForm").click(function(){
-        alert("This workds");
-                
-                    
-
-
-        
-    
-    });
-});
-
-
-</script>
 
 
