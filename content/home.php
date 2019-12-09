@@ -9,10 +9,10 @@
 &nbsp;
 <input type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
-<button id = "searchButton" type="submit" class="btn btn-info" > Search </button>
+<button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 <br>
  <div id="resultDiv">
- <?php  ?>
+ 
   </div>
 </div>
 <script>
@@ -43,8 +43,9 @@ $(document).ready(function(){
 <script>
 
 $(document).ready(function(){
-    $("button#showForm").click(function(){
 
+    $("button#showForm").click(function(){
+        alert("This workds");
                 
                     
 
