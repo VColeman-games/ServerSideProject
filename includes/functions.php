@@ -126,7 +126,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-    echo '<button onClick= '. MovieIMDB($value["imdbID"]).' id="openModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
+    echo '<button onClick=  id=" ' . $value["imdbID"].  'type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     
  
 
