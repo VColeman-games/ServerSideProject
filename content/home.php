@@ -43,8 +43,8 @@ $(document).ready(function(){
 <script>
 
 $(document).ready(function(){
-    $("button#openModal").click(function(){
-        var 
+    $("button").click(function(){
+        var idInput;
         //alert(searchInput);
 
         $.ajax({
