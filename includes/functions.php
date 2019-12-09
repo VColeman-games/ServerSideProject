@@ -126,10 +126,11 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-    echo '<button  id="showForm" type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     
-    echo '<form id="infoForm" name="productionForm" method="POST" style="display:none;">';
-     echo MovieIMDB($value["imdbID"]);
+    
+    echo '<form id="infoForm" name="productionForm" method="POST" >';
+    echo '<button   id="showForm" type="button" class="btn btn-primary>More Info</button>';
+     echo  '<div id = "Info"> ' . MovieIMDB($value["imdbID"]) . '</div>';
  
     echo '</form>';
 
