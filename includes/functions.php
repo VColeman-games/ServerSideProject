@@ -116,7 +116,7 @@ curl_close($handle);
 */
 $movieinfo = $response["Search"];
 
-    echo '<div class="grid-container>';
+    echo '<div class="grid-container">';
 foreach($movieinfo as $key => $value) {
  
     echo '<div class="grid-item">';
@@ -126,7 +126,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-    echo '<button  id="' . $value["imdbID"].  '" type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
+    echo '<button  id="showForm" type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     
  
 
