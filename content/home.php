@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-    $("button#showForm").click(function(){
+    $("#showForm").click(function(){
         alert("This workds");
                 
                     
