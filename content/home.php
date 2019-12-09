@@ -45,15 +45,11 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("button#showForm").click(function(){
 
-        $.ajax({
-            type: "POST",
-            url: "/includes/functions.php",
-            success: function (result) {
                 $('#infoForm').show();
-                    }
+                    
 
 
-        });
+        
     
     });
 });
