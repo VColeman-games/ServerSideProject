@@ -137,6 +137,20 @@ foreach($movieinfo as $key => $value) {
     echo '</div>';
 }
 echo '</div>';
+
+echo '<script>$(document).ready(function(){
+
+    $("#showForm").click(function(){
+        alert("This workds");
+                
+                    
+
+
+        
+    
+    });
+});
+</script>';
 }
 //print_r($movieIDs);
 }
