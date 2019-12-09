@@ -128,7 +128,10 @@ foreach($movieinfo as $key => $value) {
 
     echo '<button  id="showForm" type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModal">Open Modal</button>';
     
+    echo '<form id="infoForm" name="productionForm" method="POST" style="display:none;">';
+     echo MovieIMDB($value["imdbID"]);
  
+    echo '</form>';
 
     
 
