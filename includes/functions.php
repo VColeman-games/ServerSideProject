@@ -142,7 +142,7 @@ foreach($movieinfo as $key => $value) {
    echo '<script>$(document).ready(function(){
 
     $("#showForm").click(function(){
-        document.getElementById("info").innerHTML = "'. MovieIMDB($value['imdbID']) .'";
+        document.getElementById("info").innerHTML = <?php '. MovieIMDB($value['imdbID']) .'?>;
                 
                     
 
