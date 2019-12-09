@@ -126,7 +126,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<button id="showForm" type="button" class="btn btn-info">Info</button>';
     echo '<form id="movieInfo">';
-    echo '<div id=info style= "display: none;">';
+    echo '<div id=info >';
     echo MovieIMDB($value['imdbID']);
     echo '</div>';
 
@@ -139,7 +139,7 @@ foreach($movieinfo as $key => $value) {
    // getMovieID($id);
     //array_push($movieIDs, $id);
    // echo $id;
-   echo '<script>$(document).ready(function(){
+   /*echo '<script>$(document).ready(function(){
 
     $("#showForm").click(function(){
         document.getElementById("info").css({"display": "block"});
@@ -151,7 +151,7 @@ foreach($movieinfo as $key => $value) {
     
     });
 });
-</script>';
+</script>';*/
     echo '</div>';
 }
 echo '</div>';
