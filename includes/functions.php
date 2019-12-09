@@ -139,10 +139,10 @@ foreach($movieinfo as $key => $value) {
    // getMovieID($id);
     //array_push($movieIDs, $id);
    // echo $id;
-  /* echo '<script>$(document).ready(function(){
+   echo '<script>$(document).ready(function(){
 
     $("#showForm").click(function(){
-        document.getElementById("info").innerHTML = <?php '. MovieIMDB($value['imdbID']) .'?>;
+        document.getElementById("info").css({"display": "block"});
                 
                     
 
@@ -151,7 +151,7 @@ foreach($movieinfo as $key => $value) {
     
     });
 });
-</script>';*/
+</script>';
     echo '</div>';
 }
 echo '</div>';
