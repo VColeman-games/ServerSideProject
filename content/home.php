@@ -45,7 +45,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("button#showForm").click(function(){
 
-                $('#infoForm').show();
+                alert ($('#infoForm'));
                     
 
 
