@@ -126,7 +126,7 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-     echo '<button  id="showForm" type="button" class="btn btn-primary>More Info</button>';
+    echo '<button class="btn btn-primary" type="submit">Button</button>';
     
     echo '<form id="infoForm">';
    
