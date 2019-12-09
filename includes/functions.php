@@ -125,7 +125,10 @@ foreach($movieinfo as $key => $value) {
     echo '<h4>' . $value["Year"] . '</h4>';
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<button id="showForm" type="button" class="btn btn-info">Info</button>';
+    echo '<form id="movieInfo style="display: none;">';
+    echo MovieIMDB($value['imdbID']);
 
+    echo '</form>';
 
     
 
@@ -141,7 +144,7 @@ echo '</div>';
 echo '<script>$(document).ready(function(){
 
     $("#showForm").click(function(){
-        alert("This workds");
+        $(#movieInfo).show();
                 
                     
 
