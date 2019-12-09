@@ -126,13 +126,9 @@ foreach($movieinfo as $key => $value) {
     echo '<div ><img style="width:auto; height: auto;" src ='. $value["Poster"]. '></div><br>';
     echo '<h3>'. $value["imdbID"] . '</h3>';
 
-    echo '<button class="btn btn-primary" type="submit">Button</button>';
+    echo '<button onclick = '.MovieIMDB($value["imdbID"])  .' class="btn btn-primary" type="submit">Button</button>';
     
-    echo '<form id="infoForm">';
-   
-     echo  '<div id = "Info"> ' . MovieIMDB($value["imdbID"]) . '</div>';
- 
-    echo '</form>';
+
 
     
 
@@ -173,7 +169,7 @@ curl_close($handle);
 /*dont change*/
 
     
-
+    echo '<div>';
     echo ' Title :' . $response["Title"] .'<br></h5>';
 
     echo ' Year :' . $response["Year"] .'<br>';
@@ -182,7 +178,7 @@ curl_close($handle);
     echo ' Genre :' . $response["Genre"] .'<br>' ;
     echo ' Plot :' . $response["Plot"] .'<br>';
     echo ' IMDB Rating :' . $response["imdbRating"] .'<br>';
-
+echo  '</div>';
    
     
 }
