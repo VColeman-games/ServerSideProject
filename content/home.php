@@ -7,10 +7,12 @@
   </div>
 </div>
 &nbsp;
-<input  class="d-flex justify-content-center" type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
+<div class="d-flex justify-content-center">
+<input  type="text" id="userSearching" name="userInput"  placeholder="Search Movies" required>
 &nbsp;
 <button id = "searchButton" type="submit" class="btn btn-primary" > Search </button>
 <br>
+</div>
  <div id="resultDiv">
  
   </div>
